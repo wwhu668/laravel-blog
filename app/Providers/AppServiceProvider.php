@@ -1,0 +1,35 @@
+<?php
+
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * Bootstrap any application services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        \Carbon\Carbon::setLocale('zh');
+        \View::composer('*', function($view) 
+        {
+            $new_comments = \App\Comment::getNewComment()->toArray();
+            $new_articles = \App\Article::getNewArticle()->toArray();
+            \View::share('new_articles', $new_articles);
+            \View::share('new_comments', $new_comments);
+        });
+    }
+
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
+}
