@@ -11,6 +11,7 @@
 <link rel="stylesheet" id="twentyfifteen-fonts-css" href="{{ asset('fhome/css') }}" >
 <link rel="stylesheet" id="genericons-css" href="{{ asset('fhome/genericons.css') }}">
 <link rel="stylesheet" id="twentyfifteen-style-css" href="{{ asset('fhome/style.css') }}">
+</head>
 <body>
     
 
@@ -36,13 +37,13 @@
 	</footer><!-- .site-footer -->
 
 </div>
-
 <script type="text/javascript" src="{{ asset('fhome/jquery.js') }}"></script>
-<script type="text/javascript" src="{{ asset('fhome/jquery-migrate.min.js') }}"></script></head>
+<script type="text/javascript" src="{{ asset('js/jquery-2.1.4.js') }}"></script>
+@include('pjax::pjax')
+<script type="text/javascript" src="{{ asset('fhome/jquery-migrate.min.js') }}"></script>
 
 <script type="text/javascript" src="{{ asset('fhome/skip-link-focus-fix.js') }}"></script>
 <script type="text/javascript" src="{{ asset('fhome/comment-reply.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('fhome/functions.js') }}"></script>
-
 </body>
 </html>

@@ -17,22 +17,6 @@
                 </form>
             </aside> 
 
-            <aside id="recent-posts-2" class="widget widget_recent_entries"> 
-                <h2 class="widget-title">近期文章</h2> 
-                <ul> 
-                @foreach ($new_articles as $new_article) 
-                    <li> <a href="{{ Route('home.show', $new_article['id']) }}">{{ $new_article['title'] }}</a> </li> 
-                @endforeach
-                </ul> 
-            </aside>
-            <aside id="recent-comments-2" class="widget widget_recent_comments">
-                <h2 class="widget-title">近期评论</h2>
-                <ul id="recentcomments">
-                @foreach ($new_comments as $new_comment)
-                    <li class="recentcomments"><span class="comment-author-link"><a href="https://wordpress.org/" rel="external nofollow" class="url">{{ $new_comment['username'] }}</a></span>发表在《<a href="http://localhost/index.php/2015/09/23/hello-world/#comment-1">{{ $new_comment->article->title }}</a>》</li>
-                @endforeach
-                </ul>
-            </aside>
 
             <aside id="archives-2" class="widget widget_archive">
                 <h2 class="widget-title">文章归档</h2> 

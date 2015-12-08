@@ -145,7 +145,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        // App\Providers\HomeServiceProvider::class,
 
         /*
          * The custom
@@ -153,10 +152,14 @@ return [
         Barryvdh\DomPDF\ServiceProvider::class,
         Roumen\Sitemap\SitemapServiceProvider::class,
         Illuminate\Html\HtmlServiceProvider::class,
+
         YuanChao\Editor\EndaEditorServiceProvider::class,
         // Stevenyangecho\UEditor\UEditorServiceProvider::class,
         Roumen\Feed\FeedServiceProvider::class,
         Roumen\Sitemap\SitemapServiceProvider::class,
+        YuanChao\Pjax\EndaPjaxServiceProvider::class,
+        // Turbo\Provider\Laravel\TurboServiceProvider::class,
+        
     ],
 
     /*

@@ -1,0 +1,1054 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+App	_ide_helper.php	/^    class App extends \\Illuminate\\Support\\Facades\\App{$/;"	c
+Artisan	_ide_helper.php	/^    class Artisan extends \\Illuminate\\Support\\Facades\\Artisan{$/;"	c
+Auth	_ide_helper.php	/^    class Auth extends \\Illuminate\\Support\\Facades\\Auth{$/;"	c
+Blade	_ide_helper.php	/^    class Blade extends \\Illuminate\\Support\\Facades\\Blade{$/;"	c
+Bus	_ide_helper.php	/^    class Bus extends \\Illuminate\\Support\\Facades\\Bus{$/;"	c
+Cache	_ide_helper.php	/^    class Cache extends \\Illuminate\\Support\\Facades\\Cache{$/;"	c
+Config	_ide_helper.php	/^    class Config extends \\Illuminate\\Support\\Facades\\Config{$/;"	c
+Cookie	_ide_helper.php	/^    class Cookie extends \\Illuminate\\Support\\Facades\\Cookie{$/;"	c
+Crypt	_ide_helper.php	/^    class Crypt extends \\Illuminate\\Support\\Facades\\Crypt{$/;"	c
+DB	_ide_helper.php	/^    class DB extends \\Illuminate\\Support\\Facades\\DB{$/;"	c
+Eloquent	_ide_helper.php	/^    class Eloquent extends \\Illuminate\\Database\\Eloquent\\Model{$/;"	c
+Event	_ide_helper.php	/^    class Event extends \\Illuminate\\Support\\Facades\\Event{$/;"	c
+File	_ide_helper.php	/^    class File extends \\Illuminate\\Support\\Facades\\File{$/;"	c
+Gate	_ide_helper.php	/^    class Gate extends \\Illuminate\\Support\\Facades\\Gate{$/;"	c
+Hash	_ide_helper.php	/^    class Hash extends \\Illuminate\\Support\\Facades\\Hash{$/;"	c
+Input	_ide_helper.php	/^    class Input extends \\Illuminate\\Support\\Facades\\Input{$/;"	c
+Inspiring	_ide_helper.php	/^    class Inspiring extends \\Illuminate\\Foundation\\Inspiring{$/;"	c
+Lang	_ide_helper.php	/^    class Lang extends \\Illuminate\\Support\\Facades\\Lang{$/;"	c
+Log	_ide_helper.php	/^    class Log extends \\Illuminate\\Support\\Facades\\Log{$/;"	c
+Mail	_ide_helper.php	/^    class Mail extends \\Illuminate\\Support\\Facades\\Mail{$/;"	c
+Password	_ide_helper.php	/^    class Password extends \\Illuminate\\Support\\Facades\\Password{$/;"	c
+Queue	_ide_helper.php	/^    class Queue extends \\Illuminate\\Support\\Facades\\Queue{$/;"	c
+Redirect	_ide_helper.php	/^    class Redirect extends \\Illuminate\\Support\\Facades\\Redirect{$/;"	c
+Request	_ide_helper.php	/^    class Request extends \\Illuminate\\Support\\Facades\\Request{$/;"	c
+Response	_ide_helper.php	/^    class Response extends \\Illuminate\\Support\\Facades\\Response{$/;"	c
+Route	_ide_helper.php	/^    class Route extends \\Illuminate\\Support\\Facades\\Route{$/;"	c
+Schema	_ide_helper.php	/^    class Schema extends \\Illuminate\\Support\\Facades\\Schema{$/;"	c
+Session	_ide_helper.php	/^    class Session extends \\Illuminate\\Support\\Facades\\Session{$/;"	c
+Storage	_ide_helper.php	/^    class Storage extends \\Illuminate\\Support\\Facades\\Storage{$/;"	c
+URL	_ide_helper.php	/^    class URL extends \\Illuminate\\Support\\Facades\\URL{$/;"	c
+Validator	_ide_helper.php	/^    class Validator extends \\Illuminate\\Support\\Facades\\Validator{$/;"	c
+View	_ide_helper.php	/^    class View extends \\Illuminate\\Support\\Facades\\View{$/;"	c
+abort	_ide_helper.php	/^        public static function abort($code, $message = '', $headers = array()){$/;"	f
+accepts	_ide_helper.php	/^        public static function accepts($contentTypes){$/;"	f
+acceptsHtml	_ide_helper.php	/^        public static function acceptsHtml(){$/;"	f
+acceptsJson	_ide_helper.php	/^        public static function acceptsJson(){$/;"	f
+action	_ide_helper.php	/^        public static function action($action, $parameters = array(), $absolute = true){$/;"	f
+action	_ide_helper.php	/^        public static function action($action, $parameters = array(), $status = 302, $headers = array()){$/;"	f
+add	_ide_helper.php	/^        public static function add($key, $value, $minutes){$/;"	f
+addBinding	_ide_helper.php	/^        public static function addBinding($value, $type = 'where'){$/;"	f
+addConnector	_ide_helper.php	/^        public static function addConnector($driver, $resolver){$/;"	f
+addContextualBinding	_ide_helper.php	/^        public static function addContextualBinding($concrete, $abstract, $implementation){$/;"	f
+addDeferredServices	_ide_helper.php	/^        public static function addDeferredServices($services){$/;"	f
+addExtension	_ide_helper.php	/^        public static function addExtension($extension, $engine, $resolver = null){$/;"	f
+addLocation	_ide_helper.php	/^        public static function addLocation($location){$/;"	f
+addNamespace	_ide_helper.php	/^        public static function addNamespace($namespace, $hint){$/;"	f
+addNamespace	_ide_helper.php	/^        public static function addNamespace($namespace, $hints){$/;"	f
+addNestedWhereQuery	_ide_helper.php	/^        public static function addNestedWhereQuery($query, $boolean = 'and'){$/;"	f
+addSelect	_ide_helper.php	/^        public static function addSelect($column){$/;"	f
+affectingStatement	_ide_helper.php	/^        public static function affectingStatement($query, $bindings = array()){$/;"	f
+after	_ide_helper.php	/^        public static function after($callback){$/;"	f
+afterBootstrapping	_ide_helper.php	/^        public static function afterBootstrapping($bootstrapper, $callback){$/;"	f
+afterLoadingEnvironment	_ide_helper.php	/^        public static function afterLoadingEnvironment($callback){$/;"	f
+afterResolving	_ide_helper.php	/^        public static function afterResolving($abstract, $callback = null){$/;"	f
+afterResolving	_ide_helper.php	/^        public static function dispatch($command, $afterResolving = null){$/;"	v
+afterResolving	_ide_helper.php	/^        public static function dispatchNow($command, $afterResolving = null){$/;"	v
+ageFlashData	_ide_helper.php	/^        public static function ageFlashData(){$/;"	f
+aggregate	_ide_helper.php	/^        public static function aggregate($function, $columns = array()){$/;"	f
+ajax	_ide_helper.php	/^        public static function ajax(){$/;"	f
+alert	_ide_helper.php	/^        public static function alert($message, $context = array()){$/;"	f
+alias	_ide_helper.php	/^        public static function alias($abstract, $alias){$/;"	f
+alias	_ide_helper.php	/^        public static function alias($view, $alias){$/;"	f
+aliases	_ide_helper.php	/^         * Register the core class aliases in the container.$/;"	c
+all	_ide_helper.php	/^        public static function all(){$/;"	f
+all	_ide_helper.php	/^        public static function union($query, $all = false){$/;"	v
+allFiles	_ide_helper.php	/^        public static function allFiles($directory){$/;"	f
+allows	_ide_helper.php	/^        public static function allows($ability, $arguments = array()){$/;"	f
+alwaysFrom	_ide_helper.php	/^        public static function alwaysFrom($address, $name = null){$/;"	f
+alwaysTo	_ide_helper.php	/^        public static function alwaysTo($address, $name = null){$/;"	f
+any	_ide_helper.php	/^        public static function any($uri, $action){$/;"	f
+append	_ide_helper.php	/^        public static function append($path, $data){$/;"	f
+appendSection	_ide_helper.php	/^        public static function appendSection(){$/;"	f
+arguments	_ide_helper.php	/^        public static function allows($ability, $arguments = array()){$/;"	v
+arguments	_ide_helper.php	/^        public static function check($ability, $arguments = array()){$/;"	v
+arguments	_ide_helper.php	/^        public static function denies($ability, $arguments = array()){$/;"	v
+asset	_ide_helper.php	/^        public static function asset($path, $secure = null){$/;"	f
+attempt	_ide_helper.php	/^        public static function attempt($credentials = array(), $remember = false, $login = true){$/;"	f
+attempting	_ide_helper.php	/^        public static function attempting($callback){$/;"	f
+avg	_ide_helper.php	/^        public static function avg($column){$/;"	f
+away	_ide_helper.php	/^        public static function away($path, $status = 302, $headers = array()){$/;"	f
+back	_ide_helper.php	/^        public static function back($status = 302, $headers = array()){$/;"	f
+basePath	_ide_helper.php	/^        public static function basePath(){$/;"	f
+based	_ide_helper.php	/^         * Create a class based binding using the IoC container.$/;"	c
+based	_ide_helper.php	/^         * Create a class based listener using the IoC container.$/;"	c
+basic	_ide_helper.php	/^        public static function basic($field = 'email'){$/;"	f
+before	_ide_helper.php	/^        public static function before($callback){$/;"	f
+beforeBootstrapping	_ide_helper.php	/^        public static function beforeBootstrapping($bootstrapper, $callback){$/;"	f
+beginTransaction	_ide_helper.php	/^        public static function beginTransaction(){$/;"	f
+bind	_ide_helper.php	/^        public static function bind($abstract, $concrete = null, $shared = false){$/;"	f
+bind	_ide_helper.php	/^        public static function bind($key, $binder){$/;"	f
+bindIf	_ide_helper.php	/^        public static function bindIf($abstract, $concrete = null, $shared = false){$/;"	f
+bindShared	_ide_helper.php	/^        public static function bindShared($abstract, $closure){$/;"	f
+bindings	_ide_helper.php	/^        public static function affectingStatement($query, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function delete($query, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function havingRaw($sql, $bindings = array(), $boolean = 'and'){$/;"	v
+bindings	_ide_helper.php	/^        public static function insert($query, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function orHavingRaw($sql, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function orWhereRaw($sql, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function orderByRaw($sql, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function select($query, $bindings = array(), $useReadPdo = true){$/;"	v
+bindings	_ide_helper.php	/^        public static function selectFromWriteConnection($query, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function selectOne($query, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function selectRaw($expression, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function statement($query, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function update($query, $bindings = array()){$/;"	v
+bindings	_ide_helper.php	/^        public static function whereRaw($sql, $bindings = array(), $boolean = 'and'){$/;"	v
+blueprintResolver	_ide_helper.php	/^        public static function blueprintResolver($resolver){$/;"	f
+boolean	_ide_helper.php	/^        public static function addNestedWhereQuery($query, $boolean = 'and'){$/;"	v
+boolean	_ide_helper.php	/^        public static function doesntHave($relation, $boolean = 'and', $callback = null){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereBetween($column, $values, $boolean = 'and', $not = false){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereDate($column, $operator, $value, $boolean = 'and'){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereDay($column, $operator, $value, $boolean = 'and'){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereExists($callback, $boolean = 'and', $not = false){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereIn($column, $values, $boolean = 'and', $not = false){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereMonth($column, $operator, $value, $boolean = 'and'){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereNested($callback, $boolean = 'and'){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereNotBetween($column, $values, $boolean = 'and'){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereNotExists($callback, $boolean = 'and'){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereNotIn($column, $values, $boolean = 'and'){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereNotNull($column, $boolean = 'and'){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereNull($column, $boolean = 'and', $not = false){$/;"	v
+boolean	_ide_helper.php	/^        public static function whereYear($column, $operator, $value, $boolean = 'and'){$/;"	v
+boot	_ide_helper.php	/^        public static function boot(){$/;"	f
+booted	_ide_helper.php	/^        public static function booted($callback){$/;"	f
+booting	_ide_helper.php	/^        public static function booting($callback){$/;"	f
+bootstrap	_ide_helper.php	/^        public static function bootstrap(){$/;"	f
+bootstrapWith	_ide_helper.php	/^        public static function bootstrapWith($bootstrappers){$/;"	f
+bound	_ide_helper.php	/^        public static function bound($abstract){$/;"	f
+build	_ide_helper.php	/^        public static function build($concrete, $parameters = array()){$/;"	f
+bulk	_ide_helper.php	/^        public static function bulk($jobs, $data = '', $queue = null){$/;"	f
+call	_ide_helper.php	/^        public static function call($callback, $parameters = array(), $defaultMethod = null){$/;"	f
+call	_ide_helper.php	/^        public static function call($command, $parameters = array()){$/;"	f
+callComposer	_ide_helper.php	/^        public static function callComposer($view){$/;"	f
+callCreator	_ide_helper.php	/^        public static function callCreator($view){$/;"	f
+callRouteAfter	_ide_helper.php	/^        public static function callRouteAfter($route, $request, $response){$/;"	f
+callRouteBefore	_ide_helper.php	/^        public static function callRouteBefore($route, $request){$/;"	f
+callRouteFilter	_ide_helper.php	/^        public static function callRouteFilter($filter, $parameters, $route, $request, $response = null){$/;"	f
+callback	_ide_helper.php	/^        public static function afterResolving($abstract, $callback = null){$/;"	v
+callback	_ide_helper.php	/^        public static function emailResetLink($user, $token, $callback = null){$/;"	v
+callback	_ide_helper.php	/^        public static function model($key, $class, $callback = null){$/;"	v
+callback	_ide_helper.php	/^        public static function resolving($abstract, $callback = null){$/;"	v
+callback	_ide_helper.php	/^        public static function sendResetLink($credentials, $callback = null){$/;"	v
+callback	_ide_helper.php	/^        public static function whereDoesntHave($relation, $callback = null){$/;"	v
+capture	_ide_helper.php	/^        public static function capture(){$/;"	f
+check	_ide_helper.php	/^        public static function check($ability, $arguments = array()){$/;"	f
+check	_ide_helper.php	/^        public static function check($value, $hashedValue, $options = array()){$/;"	f
+check	_ide_helper.php	/^        public static function check(){$/;"	f
+choice	_ide_helper.php	/^        public static function choice($key, $number, $replace = array(), $locale = null){$/;"	f
+chunk	_ide_helper.php	/^        public static function chunk($count, $callback){$/;"	f
+cleanDirectory	_ide_helper.php	/^        public static function cleanDirectory($directory){$/;"	f
+clear	_ide_helper.php	/^        public static function clear(){$/;"	f
+columns	_ide_helper.php	/^        public static function aggregate($function, $columns = array()){$/;"	v
+columns	_ide_helper.php	/^        public static function find($id, $columns = array()){$/;"	v
+columns	_ide_helper.php	/^        public static function findMany($ids, $columns = array()){$/;"	v
+columns	_ide_helper.php	/^        public static function findOrFail($id, $columns = array()){$/;"	v
+columns	_ide_helper.php	/^        public static function paginate($perPage = null, $columns = array(), $pageName = 'page', $page = null){$/;"	v
+columns	_ide_helper.php	/^        public static function simplePaginate($perPage = null, $columns = array(), $pageName = 'page'){$/;"	v
+commit	_ide_helper.php	/^        public static function commit(){$/;"	f
+compile	_ide_helper.php	/^        public static function compile($path = null){$/;"	f
+compileEchoDefaults	_ide_helper.php	/^        public static function compileEchoDefaults($value){$/;"	f
+compileString	_ide_helper.php	/^        public static function compileString($value){$/;"	f
+composer	_ide_helper.php	/^        public static function composer($views, $callback, $priority = null){$/;"	f
+composers	_ide_helper.php	/^        public static function composers($composers){$/;"	f
+concrete	_ide_helper.php	/^        public static function bind($abstract, $concrete = null, $shared = false){$/;"	v
+concrete	_ide_helper.php	/^        public static function bindIf($abstract, $concrete = null, $shared = false){$/;"	v
+concrete	_ide_helper.php	/^        public static function singleton($abstract, $concrete = null){$/;"	v
+configPath	_ide_helper.php	/^        public static function configPath(){$/;"	f
+configurationIsCached	_ide_helper.php	/^        public static function configurationIsCached(){$/;"	f
+configureMonologUsing	_ide_helper.php	/^        public static function configureMonologUsing($callback){$/;"	f
+connected	_ide_helper.php	/^        public static function connected($name = null){$/;"	f
+connection	_ide_helper.php	/^        public static function connection($name = null){$/;"	f
+content	_ide_helper.php	/^        public static function startSection($section, $content = ''){$/;"	v
+context	_ide_helper.php	/^        public static function alert($message, $context = array()){$/;"	v
+context	_ide_helper.php	/^        public static function critical($message, $context = array()){$/;"	v
+context	_ide_helper.php	/^        public static function debug($message, $context = array()){$/;"	v
+context	_ide_helper.php	/^        public static function emergency($message, $context = array()){$/;"	v
+context	_ide_helper.php	/^        public static function error($message, $context = array()){$/;"	v
+context	_ide_helper.php	/^        public static function info($message, $context = array()){$/;"	v
+context	_ide_helper.php	/^        public static function log($level, $message, $context = array()){$/;"	v
+context	_ide_helper.php	/^        public static function notice($message, $context = array()){$/;"	v
+context	_ide_helper.php	/^        public static function warning($message, $context = array()){$/;"	v
+context	_ide_helper.php	/^        public static function write($level, $message, $context = array()){$/;"	v
+controller	_ide_helper.php	/^        public static function controller($uri, $controller, $names = array()){$/;"	f
+controllers	_ide_helper.php	/^        public static function controllers($controllers){$/;"	f
+cookie	_ide_helper.php	/^        public static function cookie($key = null, $default = null){$/;"	f
+copy	_ide_helper.php	/^        public static function copy($path, $target){$/;"	f
+copyDirectory	_ide_helper.php	/^        public static function copyDirectory($directory, $destination, $options = null){$/;"	f
+count	_ide_helper.php	/^        public static function count($columns = '*'){$/;"	f
+create	_ide_helper.php	/^        public static function create($table, $callback){$/;"	f
+create	_ide_helper.php	/^        public static function create($uri, $method = 'GET', $parameters = array(), $cookies = array(), $files = array(), $server = array(), $content = null){$/;"	f
+createClassBinding	_ide_helper.php	/^        public static function createClassBinding($binding){$/;"	f
+createClassListener	_ide_helper.php	/^        public static function createClassListener($listener){$/;"	f
+createDatabaseDriver	_ide_helper.php	/^        public static function createDatabaseDriver(){$/;"	f
+createEloquentDriver	_ide_helper.php	/^        public static function createEloquentDriver(){$/;"	f
+createFromBase	_ide_helper.php	/^        public static function createFromBase($request){$/;"	f
+createFromGlobals	_ide_helper.php	/^        public static function createFromGlobals(){$/;"	f
+createFtpDriver	_ide_helper.php	/^        public static function createFtpDriver($config){$/;"	f
+createLocalDriver	_ide_helper.php	/^        public static function createLocalDriver($config){$/;"	f
+createRackspaceDriver	_ide_helper.php	/^        public static function createRackspaceDriver($config){$/;"	f
+createS3Driver	_ide_helper.php	/^        public static function createS3Driver($config){$/;"	f
+creator	_ide_helper.php	/^        public static function creator($views, $callback){$/;"	f
+critical	_ide_helper.php	/^        public static function critical($message, $context = array()){$/;"	f
+current	_ide_helper.php	/^        public static function current(){$/;"	f
+currentRouteAction	_ide_helper.php	/^        public static function currentRouteAction(){$/;"	f
+currentRouteName	_ide_helper.php	/^        public static function currentRouteName(){$/;"	f
+currentRouteNamed	_ide_helper.php	/^        public static function currentRouteNamed($name){$/;"	f
+currentRouteUses	_ide_helper.php	/^        public static function currentRouteUses($action){$/;"	f
+data	_ide_helper.php	/^        public static function bulk($jobs, $data = '', $queue = null){$/;"	v
+data	_ide_helper.php	/^        public static function file($path, $data = array(), $mergeData = array()){$/;"	v
+data	_ide_helper.php	/^        public static function jsonp($callback, $data = array(), $status = 200, $headers = array(), $options = 0){$/;"	v
+data	_ide_helper.php	/^        public static function later($delay, $job, $data = '', $queue = null){$/;"	v
+data	_ide_helper.php	/^        public static function laterOn($queue, $delay, $job, $data = ''){$/;"	v
+data	_ide_helper.php	/^        public static function make($view, $data = array(), $mergeData = array()){$/;"	v
+data	_ide_helper.php	/^        public static function of($view, $data = array()){$/;"	v
+data	_ide_helper.php	/^        public static function push($job, $data = '', $queue = null){$/;"	v
+data	_ide_helper.php	/^        public static function pushOn($queue, $job, $data = ''){$/;"	v
+data	_ide_helper.php	/^        public static function view($view, $data = array(), $status = 200, $headers = array()){$/;"	v
+databasePath	_ide_helper.php	/^        public static function databasePath(){$/;"	f
+days	_ide_helper.php	/^        public static function useDailyFiles($path, $days = 0, $level = 'debug'){$/;"	v
+debug	_ide_helper.php	/^        public static function debug($message, $context = array()){$/;"	f
+decodedPath	_ide_helper.php	/^        public static function decodedPath(){$/;"	f
+decrement	_ide_helper.php	/^        public static function decrement($key, $value = 1){$/;"	f
+decrementRender	_ide_helper.php	/^        public static function decrementRender(){$/;"	f
+decrypt	_ide_helper.php	/^        public static function decrypt($payload){$/;"	f
+default	_ide_helper.php	/^        public static function cookie($key = null, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function file($key = null, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function get($key, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function get($key, $default = null, $deep = false){$/;"	v
+default	_ide_helper.php	/^        public static function get($name, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function getOldInput($key = null, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function header($key = null, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function input($key = null, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function input($key, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function json($key = null, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function old($key = null, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function pull($key, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function query($key = null, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function queued($key, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function segment($index, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function server($key = null, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function shared($key, $default = null){$/;"	v
+default	_ide_helper.php	/^        public static function yieldContent($section, $default = ''){$/;"	v
+define	_ide_helper.php	/^        public static function define($ability, $callback){$/;"	f
+delete	_ide_helper.php	/^        public static function delete($paths){$/;"	f
+delete	_ide_helper.php	/^        public static function delete($query, $bindings = array()){$/;"	f
+delete	_ide_helper.php	/^        public static function delete($uri, $action){$/;"	f
+deleteDirectory	_ide_helper.php	/^        public static function deleteDirectory($directory, $preserve = false){$/;"	f
+denies	_ide_helper.php	/^        public static function denies($ability, $arguments = array()){$/;"	f
+detectEnvironment	_ide_helper.php	/^        public static function detectEnvironment($callback){$/;"	f
+direction	_ide_helper.php	/^        public static function orderBy($column, $direction = 'asc'){$/;"	v
+directive	_ide_helper.php	/^        public static function directive($name, $handler){$/;"	f
+directories	_ide_helper.php	/^        public static function directories($directory){$/;"	f
+disableQueryLog	_ide_helper.php	/^        public static function disableQueryLog(){$/;"	f
+disconnect	_ide_helper.php	/^        public static function disconnect($name = null){$/;"	f
+disk	_ide_helper.php	/^        public static function disk($name = null){$/;"	f
+dispatch	_ide_helper.php	/^        public static function dispatch($command, $afterResolving = null){$/;"	f
+dispatch	_ide_helper.php	/^        public static function dispatch($request){$/;"	f
+dispatchFrom	_ide_helper.php	/^        public static function dispatchFrom($command, $source, $extras = array()){$/;"	f
+dispatchFromArray	_ide_helper.php	/^        public static function dispatchFromArray($command, $array){$/;"	f
+dispatchNow	_ide_helper.php	/^        public static function dispatchNow($command, $afterResolving = null){$/;"	f
+dispatchToQueue	_ide_helper.php	/^        public static function dispatchToQueue($command){$/;"	f
+dispatchToRoute	_ide_helper.php	/^        public static function dispatchToRoute($request){$/;"	f
+distinct	_ide_helper.php	/^        public static function distinct(){$/;"	f
+doesntHave	_ide_helper.php	/^        public static function doesntHave($relation, $boolean = 'and', $callback = null){$/;"	f
+doneRendering	_ide_helper.php	/^        public static function doneRendering(){$/;"	f
+download	_ide_helper.php	/^        public static function download($file, $name = null, $headers = array(), $disposition = 'attachment'){$/;"	f
+drive	_ide_helper.php	/^        public static function drive($name = null){$/;"	f
+driver	_ide_helper.php	/^        public static function driver($driver = null){$/;"	f
+drop	_ide_helper.php	/^        public static function drop($table){$/;"	f
+dropIfExists	_ide_helper.php	/^        public static function dropIfExists($table){$/;"	f
+duplicate	_ide_helper.php	/^        public static function duplicate($query = null, $request = null, $attributes = null, $cookies = null, $files = null, $server = null){$/;"	f
+dynamicWhere	_ide_helper.php	/^        public static function dynamicWhere($method, $parameters){$/;"	f
+eagerLoadRelations	_ide_helper.php	/^        public static function eagerLoadRelations($models){$/;"	f
+elixir	gulpfile.js	/^var elixir = require('laravel-elixir');$/;"	v
+emailResetLink	_ide_helper.php	/^        public static function emailResetLink($user, $token, $callback = null){$/;"	f
+emergency	_ide_helper.php	/^        public static function emergency($message, $context = array()){$/;"	f
+empty	_ide_helper.php	/^        public static function renderEach($view, $data, $iterator, $empty = 'raw|'){$/;"	v
+enableHttpMethodParameterOverride	_ide_helper.php	/^        public static function enableHttpMethodParameterOverride(){$/;"	f
+enableQueryLog	_ide_helper.php	/^        public static function enableQueryLog(){$/;"	f
+encrypt	_ide_helper.php	/^        public static function encrypt($value){$/;"	f
+environment	_ide_helper.php	/^        public static function environment(){$/;"	f
+environmentFile	_ide_helper.php	/^        public static function environmentFile(){$/;"	f
+environmentPath	_ide_helper.php	/^        public static function environmentPath(){$/;"	f
+error	_ide_helper.php	/^        public static function error($message, $context = array()){$/;"	f
+escaped	_ide_helper.php	/^        public static function setContentTags($openTag, $closeTag, $escaped = false){$/;"	v
+except	_ide_helper.php	/^        public static function except($keys){$/;"	f
+exists	_ide_helper.php	/^        public static function exists($key){$/;"	f
+exists	_ide_helper.php	/^        public static function exists($path){$/;"	f
+exists	_ide_helper.php	/^        public static function exists($view){$/;"	f
+exists	_ide_helper.php	/^        public static function exists(){$/;"	f
+extend	_ide_helper.php	/^        public static function extend($abstract, $closure){$/;"	f
+extend	_ide_helper.php	/^        public static function extend($compiler){$/;"	f
+extend	_ide_helper.php	/^        public static function extend($driver, $callback){$/;"	f
+extend	_ide_helper.php	/^        public static function extend($driver, $resolver){$/;"	f
+extend	_ide_helper.php	/^        public static function extend($name, $resolver){$/;"	f
+extend	_ide_helper.php	/^        public static function extend($rule, $extension, $message = null){$/;"	f
+extendImplicit	_ide_helper.php	/^        public static function extendImplicit($rule, $extension, $message = null){$/;"	f
+extension	_ide_helper.php	/^        public static function extension($path){$/;"	f
+extra	_ide_helper.php	/^        public static function to($path, $extra = array(), $secure = null){$/;"	v
+extras	_ide_helper.php	/^        public static function dispatchFrom($command, $source, $extras = array()){$/;"	v
+failing	_ide_helper.php	/^        public static function failing($callback){$/;"	f
+failures	_ide_helper.php	/^        public static function failures(){$/;"	f
+file	_ide_helper.php	/^        public static function file($key = null, $default = null){$/;"	f
+file	_ide_helper.php	/^        public static function file($path, $data = array(), $mergeData = array()){$/;"	f
+files	_ide_helper.php	/^        public static function files($directory){$/;"	f
+filter	_ide_helper.php	/^        public static function filter($name, $callback){$/;"	f
+find	_ide_helper.php	/^        public static function find($id, $columns = array()){$/;"	f
+findMany	_ide_helper.php	/^        public static function findMany($ids, $columns = array()){$/;"	f
+findOrFail	_ide_helper.php	/^        public static function findOrFail($id, $columns = array()){$/;"	f
+findPatternFilters	_ide_helper.php	/^        public static function findPatternFilters($request){$/;"	f
+fire	_ide_helper.php	/^        public static function fire($event, $payload = array(), $halt = false){$/;"	f
+firing	_ide_helper.php	/^        public static function firing(){$/;"	f
+first	_ide_helper.php	/^        public static function first($columns = array()){$/;"	f
+firstOrFail	_ide_helper.php	/^        public static function firstOrFail($columns = array()){$/;"	f
+flags	_ide_helper.php	/^        public static function glob($pattern, $flags = 0){$/;"	v
+flash	_ide_helper.php	/^        public static function flash($filter = null, $keys = array()){$/;"	f
+flash	_ide_helper.php	/^        public static function flash($key, $value){$/;"	f
+flashExcept	_ide_helper.php	/^        public static function flashExcept($keys){$/;"	f
+flashInput	_ide_helper.php	/^        public static function flashInput($value){$/;"	f
+flashOnly	_ide_helper.php	/^        public static function flashOnly($keys){$/;"	f
+flush	_ide_helper.php	/^        public static function flush($event){$/;"	f
+flush	_ide_helper.php	/^        public static function flush(){$/;"	f
+flushQueryLog	_ide_helper.php	/^        public static function flushQueryLog(){$/;"	f
+flushSections	_ide_helper.php	/^        public static function flushSections(){$/;"	f
+flushSectionsIfDoneRendering	_ide_helper.php	/^        public static function flushSectionsIfDoneRendering(){$/;"	f
+for	_ide_helper.php	/^         * Define a policy class for a given class type.$/;"	c
+for	_ide_helper.php	/^         * Get the handler class for the given command.$/;"	c
+forPage	_ide_helper.php	/^        public static function forPage($page, $perPage = 15){$/;"	f
+forUser	_ide_helper.php	/^        public static function forUser($user){$/;"	f
+forceRootUrl	_ide_helper.php	/^        public static function forceRootUrl($root){$/;"	f
+forceSchema	_ide_helper.php	/^        public static function forceSchema($schema){$/;"	f
+forever	_ide_helper.php	/^        public static function forever($key, $value){$/;"	f
+forever	_ide_helper.php	/^        public static function forever($name, $value, $path = null, $domain = null, $secure = false, $httpOnly = true){$/;"	f
+forget	_ide_helper.php	/^        public static function forget($event){$/;"	f
+forget	_ide_helper.php	/^        public static function forget($key){$/;"	f
+forget	_ide_helper.php	/^        public static function forget($name, $path = null, $domain = null){$/;"	f
+forgetInstance	_ide_helper.php	/^        public static function forgetInstance($abstract){$/;"	f
+forgetInstances	_ide_helper.php	/^        public static function forgetInstances(){$/;"	f
+forgetPushed	_ide_helper.php	/^        public static function forgetPushed(){$/;"	f
+format	_ide_helper.php	/^        public static function format($default = 'html'){$/;"	f
+from	_ide_helper.php	/^        public static function from($table){$/;"	f
+full	_ide_helper.php	/^        public static function full(){$/;"	f
+fullUrl	_ide_helper.php	/^        public static function fullUrl(){$/;"	f
+gatherRouteMiddlewares	_ide_helper.php	/^        public static function gatherRouteMiddlewares($route){$/;"	f
+get	_ide_helper.php	/^        public static function get($columns = array()){$/;"	f
+get	_ide_helper.php	/^        public static function get($key, $default = null){$/;"	f
+get	_ide_helper.php	/^        public static function get($key, $default = null, $deep = false){$/;"	f
+get	_ide_helper.php	/^        public static function get($key, $replace = array(), $locale = null){$/;"	f
+get	_ide_helper.php	/^        public static function get($name, $default = null){$/;"	f
+get	_ide_helper.php	/^        public static function get($path){$/;"	f
+get	_ide_helper.php	/^        public static function get($uri, $action){$/;"	f
+getAcceptableContentTypes	_ide_helper.php	/^        public static function getAcceptableContentTypes(){$/;"	f
+getBag	_ide_helper.php	/^        public static function getBag($name){$/;"	f
+getBagData	_ide_helper.php	/^        public static function getBagData($name){$/;"	f
+getBasePath	_ide_helper.php	/^        public static function getBasePath(){$/;"	f
+getBaseUrl	_ide_helper.php	/^        public static function getBaseUrl(){$/;"	f
+getBindings	_ide_helper.php	/^        public static function getBindings(){$/;"	f
+getCachedCompilePath	_ide_helper.php	/^        public static function getCachedCompilePath(){$/;"	f
+getCachedConfigPath	_ide_helper.php	/^        public static function getCachedConfigPath(){$/;"	f
+getCachedRoutesPath	_ide_helper.php	/^        public static function getCachedRoutesPath(){$/;"	f
+getCachedServicesPath	_ide_helper.php	/^        public static function getCachedServicesPath(){$/;"	f
+getCharsets	_ide_helper.php	/^        public static function getCharsets(){$/;"	f
+getClientIp	_ide_helper.php	/^        public static function getClientIp(){$/;"	f
+getClientIps	_ide_helper.php	/^        public static function getClientIps(){$/;"	f
+getColumnListing	_ide_helper.php	/^        public static function getColumnListing($table){$/;"	f
+getCompiledPath	_ide_helper.php	/^        public static function getCompiledPath($path){$/;"	f
+getConfig	_ide_helper.php	/^        public static function getConfig($option){$/;"	f
+getConnection	_ide_helper.php	/^        public static function getConnection(){$/;"	f
+getConnections	_ide_helper.php	/^        public static function getConnections(){$/;"	f
+getContainer	_ide_helper.php	/^        public static function getContainer(){$/;"	f
+getContent	_ide_helper.php	/^        public static function getContent($asResource = false){$/;"	f
+getContentTags	_ide_helper.php	/^        public static function getContentTags(){$/;"	f
+getContentType	_ide_helper.php	/^        public static function getContentType(){$/;"	f
+getCookieJar	_ide_helper.php	/^        public static function getCookieJar(){$/;"	f
+getCountForPagination	_ide_helper.php	/^        public static function getCountForPagination($columns = array()){$/;"	f
+getCurrentRequest	_ide_helper.php	/^        public static function getCurrentRequest(){$/;"	f
+getCurrentRoute	_ide_helper.php	/^        public static function getCurrentRoute(){$/;"	f
+getCustomDirectives	_ide_helper.php	/^        public static function getCustomDirectives(){$/;"	f
+getDatabaseName	_ide_helper.php	/^        public static function getDatabaseName(){$/;"	f
+getDefaultCacheTime	_ide_helper.php	/^        public static function getDefaultCacheTime(){$/;"	f
+getDefaultConnection	_ide_helper.php	/^        public static function getDefaultConnection(){$/;"	f
+getDefaultDriver	_ide_helper.php	/^        public static function getDefaultDriver(){$/;"	f
+getDefaultLocale	_ide_helper.php	/^        public static function getDefaultLocale(){$/;"	f
+getDeferredServices	_ide_helper.php	/^        public static function getDeferredServices(){$/;"	f
+getDirectory	_ide_helper.php	/^        public static function getDirectory(){$/;"	f
+getDispatcher	_ide_helper.php	/^        public static function getDispatcher(){$/;"	f
+getDoctrineColumn	_ide_helper.php	/^        public static function getDoctrineColumn($table, $column){$/;"	f
+getDoctrineConnection	_ide_helper.php	/^        public static function getDoctrineConnection(){$/;"	f
+getDoctrineSchemaManager	_ide_helper.php	/^        public static function getDoctrineSchemaManager(){$/;"	f
+getDriverName	_ide_helper.php	/^        public static function getDriverName(){$/;"	f
+getDrivers	_ide_helper.php	/^        public static function getDrivers(){$/;"	f
+getETags	_ide_helper.php	/^        public static function getETags(){$/;"	f
+getEagerLoads	_ide_helper.php	/^        public static function getEagerLoads(){$/;"	f
+getEncodings	_ide_helper.php	/^        public static function getEncodings(){$/;"	f
+getEngineFromPath	_ide_helper.php	/^        public static function getEngineFromPath($path){$/;"	f
+getEngineResolver	_ide_helper.php	/^        public static function getEngineResolver(){$/;"	f
+getEscapedContentTags	_ide_helper.php	/^        public static function getEscapedContentTags(){$/;"	f
+getEventDispatcher	_ide_helper.php	/^        public static function getEventDispatcher(){$/;"	f
+getExtensions	_ide_helper.php	/^        public static function getExtensions(){$/;"	f
+getFallback	_ide_helper.php	/^        public static function getFallback(){$/;"	f
+getFetchMode	_ide_helper.php	/^        public static function getFetchMode(){$/;"	f
+getFilesystem	_ide_helper.php	/^        public static function getFilesystem(){$/;"	f
+getFinder	_ide_helper.php	/^        public static function getFinder(){$/;"	f
+getFormat	_ide_helper.php	/^        public static function getFormat($mimeType){$/;"	f
+getFresh	_ide_helper.php	/^        public static function getFresh($columns = array()){$/;"	f
+getGrammar	_ide_helper.php	/^        public static function getGrammar(){$/;"	f
+getGroupStack	_ide_helper.php	/^        public static function getGroupStack(){$/;"	f
+getHandler	_ide_helper.php	/^        public static function getHandler(){$/;"	f
+getHandlerClass	_ide_helper.php	/^        public static function getHandlerClass($command){$/;"	f
+getHandlerMethod	_ide_helper.php	/^        public static function getHandlerMethod($command){$/;"	f
+getHost	_ide_helper.php	/^        public static function getHost(){$/;"	f
+getHttpHost	_ide_helper.php	/^        public static function getHttpHost(){$/;"	f
+getHttpMethodParameterOverride	_ide_helper.php	/^        public static function getHttpMethodParameterOverride(){$/;"	f
+getId	_ide_helper.php	/^        public static function getId(){$/;"	f
+getInstance	_ide_helper.php	/^        public static function getInstance(){$/;"	f
+getLanguages	_ide_helper.php	/^        public static function getLanguages(){$/;"	f
+getLastAttempted	_ide_helper.php	/^        public static function getLastAttempted(){$/;"	f
+getLastGroupPrefix	_ide_helper.php	/^        public static function getLastGroupPrefix(){$/;"	f
+getListeners	_ide_helper.php	/^        public static function getListeners($eventName){$/;"	f
+getLoadedProviders	_ide_helper.php	/^        public static function getLoadedProviders(){$/;"	f
+getLoader	_ide_helper.php	/^        public static function getLoader(){$/;"	f
+getLocale	_ide_helper.php	/^        public static function getLocale(){$/;"	f
+getMacro	_ide_helper.php	/^        public static function getMacro($name){$/;"	f
+getMetadataBag	_ide_helper.php	/^        public static function getMetadataBag(){$/;"	f
+getMethod	_ide_helper.php	/^        public static function getMethod(){$/;"	f
+getMiddleware	_ide_helper.php	/^        public static function getMiddleware(){$/;"	f
+getMimeType	_ide_helper.php	/^        public static function getMimeType($format){$/;"	f
+getModel	_ide_helper.php	/^        public static function getModel(){$/;"	f
+getModels	_ide_helper.php	/^        public static function getModels($columns = array()){$/;"	f
+getMonolog	_ide_helper.php	/^        public static function getMonolog(){$/;"	f
+getMonologConfigurator	_ide_helper.php	/^        public static function getMonologConfigurator(){$/;"	f
+getName	_ide_helper.php	/^        public static function getName($connection = null){$/;"	f
+getName	_ide_helper.php	/^        public static function getName(){$/;"	f
+getNames	_ide_helper.php	/^        public static function getNames(){$/;"	f
+getNamespace	_ide_helper.php	/^        public static function getNamespace(){$/;"	f
+getOldInput	_ide_helper.php	/^        public static function getOldInput($key = null, $default = null){$/;"	f
+getPassword	_ide_helper.php	/^        public static function getPassword(){$/;"	f
+getPath	_ide_helper.php	/^        public static function getPath(){$/;"	f
+getPathInfo	_ide_helper.php	/^        public static function getPathInfo(){$/;"	f
+getPatterns	_ide_helper.php	/^        public static function getPatterns(){$/;"	f
+getPdo	_ide_helper.php	/^        public static function getPdo(){$/;"	f
+getPolicyFor	_ide_helper.php	/^        public static function getPolicyFor($class){$/;"	f
+getPort	_ide_helper.php	/^        public static function getPort(){$/;"	f
+getPostProcessor	_ide_helper.php	/^        public static function getPostProcessor(){$/;"	f
+getPreferredLanguage	_ide_helper.php	/^        public static function getPreferredLanguage($locales = null){$/;"	f
+getPrefix	_ide_helper.php	/^        public static function getPrefix(){$/;"	f
+getPresenceVerifier	_ide_helper.php	/^        public static function getPresenceVerifier(){$/;"	f
+getProcessor	_ide_helper.php	/^        public static function getProcessor(){$/;"	f
+getProvider	_ide_helper.php	/^        public static function getProvider($provider){$/;"	f
+getProvider	_ide_helper.php	/^        public static function getProvider(){$/;"	f
+getQuery	_ide_helper.php	/^        public static function getQuery(){$/;"	f
+getQueryGrammar	_ide_helper.php	/^        public static function getQueryGrammar(){$/;"	f
+getQueryLog	_ide_helper.php	/^        public static function getQueryLog(){$/;"	f
+getQueryString	_ide_helper.php	/^        public static function getQueryString(){$/;"	f
+getQueuedCookies	_ide_helper.php	/^        public static function getQueuedCookies(){$/;"	f
+getRawBindings	_ide_helper.php	/^        public static function getRawBindings(){$/;"	f
+getRawTags	_ide_helper.php	/^        public static function getRawTags(){$/;"	f
+getReadPdo	_ide_helper.php	/^        public static function getReadPdo(){$/;"	f
+getRealMethod	_ide_helper.php	/^        public static function getRealMethod(){$/;"	f
+getRecallerName	_ide_helper.php	/^        public static function getRecallerName(){$/;"	f
+getRelativeUriForPath	_ide_helper.php	/^        public static function getRelativeUriForPath($path){$/;"	f
+getRequest	_ide_helper.php	/^        public static function getRequest(){$/;"	f
+getRequestFormat	_ide_helper.php	/^        public static function getRequestFormat($default = 'html'){$/;"	f
+getRequestUri	_ide_helper.php	/^        public static function getRequestUri(){$/;"	f
+getRequire	_ide_helper.php	/^        public static function getRequire($path){$/;"	f
+getRouteResolver	_ide_helper.php	/^        public static function getRouteResolver(){$/;"	f
+getRoutes	_ide_helper.php	/^        public static function getRoutes(){$/;"	f
+getSchemaBuilder	_ide_helper.php	/^        public static function getSchemaBuilder(){$/;"	f
+getSchemaGrammar	_ide_helper.php	/^        public static function getSchemaGrammar(){$/;"	f
+getScheme	_ide_helper.php	/^        public static function getScheme(){$/;"	f
+getSchemeAndHttpHost	_ide_helper.php	/^        public static function getSchemeAndHttpHost(){$/;"	f
+getScriptName	_ide_helper.php	/^        public static function getScriptName(){$/;"	f
+getSections	_ide_helper.php	/^        public static function getSections(){$/;"	f
+getSelector	_ide_helper.php	/^        public static function getSelector(){$/;"	f
+getSession	_ide_helper.php	/^        public static function getSession(){$/;"	f
+getSessionConfig	_ide_helper.php	/^        public static function getSessionConfig(){$/;"	f
+getShared	_ide_helper.php	/^        public static function getShared(){$/;"	f
+getStore	_ide_helper.php	/^        public static function getStore(){$/;"	f
+getSwiftMailer	_ide_helper.php	/^        public static function getSwiftMailer(){$/;"	f
+getTablePrefix	_ide_helper.php	/^        public static function getTablePrefix(){$/;"	f
+getToken	_ide_helper.php	/^        public static function getToken(){$/;"	f
+getTranslator	_ide_helper.php	/^        public static function getTranslator(){$/;"	f
+getTrustedHeaderName	_ide_helper.php	/^        public static function getTrustedHeaderName($key){$/;"	f
+getTrustedHosts	_ide_helper.php	/^        public static function getTrustedHosts(){$/;"	f
+getTrustedProxies	_ide_helper.php	/^        public static function getTrustedProxies(){$/;"	f
+getUri	_ide_helper.php	/^        public static function getUri(){$/;"	f
+getUriForPath	_ide_helper.php	/^        public static function getUriForPath($path){$/;"	f
+getUrlGenerator	_ide_helper.php	/^        public static function getUrlGenerator(){$/;"	f
+getUser	_ide_helper.php	/^        public static function getUser($credentials){$/;"	f
+getUser	_ide_helper.php	/^        public static function getUser(){$/;"	f
+getUserInfo	_ide_helper.php	/^        public static function getUserInfo(){$/;"	f
+getUserResolver	_ide_helper.php	/^        public static function getUserResolver(){$/;"	f
+getViewFactory	_ide_helper.php	/^        public static function getViewFactory(){$/;"	f
+glob	_ide_helper.php	/^        public static function glob($pattern, $flags = 0){$/;"	f
+glue	_ide_helper.php	/^        public static function implode($column, $glue = null){$/;"	v
+group	_ide_helper.php	/^        public static function group($attributes, $callback){$/;"	f
+groupBy	_ide_helper.php	/^        public static function groupBy(){$/;"	f
+guest	_ide_helper.php	/^        public static function guest($path, $status = 302, $headers = array(), $secure = null){$/;"	f
+guest	_ide_helper.php	/^        public static function guest(){$/;"	f
+handle	_ide_helper.php	/^        public static function handle($input, $output = null){$/;"	f
+handle	_ide_helper.php	/^        public static function handle($request, $type = 1, $catch = true){$/;"	f
+handleQueuedMessage	_ide_helper.php	/^        public static function handleQueuedMessage($job, $data){$/;"	f
+handlerNeedsRequest	_ide_helper.php	/^        public static function handlerNeedsRequest(){$/;"	f
+has	_ide_helper.php	/^        public static function has($ability){$/;"	f
+has	_ide_helper.php	/^        public static function has($key){$/;"	f
+has	_ide_helper.php	/^        public static function has($key, $locale = null){$/;"	f
+has	_ide_helper.php	/^        public static function has($name){$/;"	f
+has	_ide_helper.php	/^        public static function has($relation, $operator = '>=', $count = 1, $boolean = 'and', $callback = null){$/;"	f
+hasBeenBootstrapped	_ide_helper.php	/^        public static function hasBeenBootstrapped(){$/;"	f
+hasColumn	_ide_helper.php	/^        public static function hasColumn($table, $column){$/;"	f
+hasColumns	_ide_helper.php	/^        public static function hasColumns($table, $columns){$/;"	f
+hasCookie	_ide_helper.php	/^        public static function hasCookie($key){$/;"	f
+hasFile	_ide_helper.php	/^        public static function hasFile($key){$/;"	f
+hasGroupStack	_ide_helper.php	/^        public static function hasGroupStack(){$/;"	f
+hasListeners	_ide_helper.php	/^        public static function hasListeners($eventName){$/;"	f
+hasMacro	_ide_helper.php	/^        public static function hasMacro($name){$/;"	f
+hasMonologConfigurator	_ide_helper.php	/^        public static function hasMonologConfigurator(){$/;"	f
+hasOldInput	_ide_helper.php	/^        public static function hasOldInput($key = null){$/;"	f
+hasPreviousSession	_ide_helper.php	/^        public static function hasPreviousSession(){$/;"	f
+hasQueued	_ide_helper.php	/^        public static function hasQueued($key){$/;"	f
+hasSection	_ide_helper.php	/^        public static function hasSection($name){$/;"	f
+hasSession	_ide_helper.php	/^        public static function hasSession(){$/;"	f
+hasTable	_ide_helper.php	/^        public static function hasTable($table){$/;"	f
+having	_ide_helper.php	/^        public static function having($column, $operator = null, $value = null, $boolean = 'and'){$/;"	f
+havingRaw	_ide_helper.php	/^        public static function havingRaw($sql, $bindings = array(), $boolean = 'and'){$/;"	f
+header	_ide_helper.php	/^        public static function header($key = null, $default = null){$/;"	f
+headers	_ide_helper.php	/^        public static function back($status = 302, $headers = array()){$/;"	v
+headers	_ide_helper.php	/^        public static function refresh($status = 302, $headers = array()){$/;"	v
+home	_ide_helper.php	/^        public static function home($status = 302){$/;"	f
+id	_ide_helper.php	/^        public static function id(){$/;"	f
+implode	_ide_helper.php	/^        public static function implode($column, $glue = null){$/;"	f
+increment	_ide_helper.php	/^        public static function increment($key, $value = 1){$/;"	f
+incrementRender	_ide_helper.php	/^        public static function incrementRender(){$/;"	f
+info	_ide_helper.php	/^        public static function info($message, $context = array()){$/;"	f
+initialize	_ide_helper.php	/^        public static function initialize($query = array(), $request = array(), $attributes = array(), $cookies = array(), $files = array(), $server = array(), $content = null){$/;"	f
+inject	_ide_helper.php	/^        public static function inject($section, $content){$/;"	f
+input	_ide_helper.php	/^        public static function input($key = null, $default = null){$/;"	f
+input	_ide_helper.php	/^        public static function input($key, $default = null){$/;"	f
+insert	_ide_helper.php	/^        public static function insert($query, $bindings = array()){$/;"	f
+insert	_ide_helper.php	/^        public static function insert($values){$/;"	f
+insertGetId	_ide_helper.php	/^        public static function insertGetId($values, $sequence = null){$/;"	f
+instance	_ide_helper.php	/^         * Build a policy class instance of the given type.$/;"	c
+instance	_ide_helper.php	/^        public static function instance($abstract, $instance){$/;"	f
+instance	_ide_helper.php	/^        public static function instance(){$/;"	f
+intended	_ide_helper.php	/^        public static function intended($default = '\/', $status = 302, $headers = array(), $secure = null){$/;"	f
+invalidate	_ide_helper.php	/^        public static function invalidate($lifetime = null){$/;"	f
+ip	_ide_helper.php	/^        public static function ip(){$/;"	f
+ips	_ide_helper.php	/^        public static function ips(){$/;"	f
+is	_ide_helper.php	/^        public static function is(){$/;"	f
+isAlias	_ide_helper.php	/^        public static function isAlias($name){$/;"	f
+isBooted	_ide_helper.php	/^        public static function isBooted(){$/;"	f
+isDeferredService	_ide_helper.php	/^        public static function isDeferredService($service){$/;"	f
+isDirectory	_ide_helper.php	/^        public static function isDirectory($directory){$/;"	f
+isDoctrineAvailable	_ide_helper.php	/^        public static function isDoctrineAvailable(){$/;"	f
+isDownForMaintenance	_ide_helper.php	/^        public static function isDownForMaintenance(){$/;"	f
+isExpired	_ide_helper.php	/^        public static function isExpired($path){$/;"	f
+isFile	_ide_helper.php	/^        public static function isFile($file){$/;"	f
+isJson	_ide_helper.php	/^        public static function isJson(){$/;"	f
+isLocal	_ide_helper.php	/^        public static function isLocal(){$/;"	f
+isMethod	_ide_helper.php	/^        public static function isMethod($method){$/;"	f
+isMethodSafe	_ide_helper.php	/^        public static function isMethodSafe(){$/;"	f
+isNoCache	_ide_helper.php	/^        public static function isNoCache(){$/;"	f
+isPretending	_ide_helper.php	/^        public static function isPretending(){$/;"	f
+isSecure	_ide_helper.php	/^        public static function isSecure(){$/;"	f
+isShared	_ide_helper.php	/^        public static function isShared($abstract){$/;"	f
+isStarted	_ide_helper.php	/^        public static function isStarted(){$/;"	f
+isValidId	_ide_helper.php	/^        public static function isValidId($id){$/;"	f
+isValidUrl	_ide_helper.php	/^        public static function isValidUrl($path){$/;"	f
+isWritable	_ide_helper.php	/^        public static function isWritable($path){$/;"	f
+isXmlHttpRequest	_ide_helper.php	/^        public static function isXmlHttpRequest(){$/;"	f
+join	_ide_helper.php	/^        public static function join($table, $one, $operator = null, $two = null, $type = 'inner', $where = false){$/;"	f
+joinWhere	_ide_helper.php	/^        public static function joinWhere($table, $one, $operator, $two, $type = 'inner'){$/;"	f
+json	_ide_helper.php	/^        public static function json($data = array(), $status = 200, $headers = array(), $options = 0){$/;"	f
+json	_ide_helper.php	/^        public static function json($key = null, $default = null){$/;"	f
+jsonp	_ide_helper.php	/^        public static function jsonp($callback, $data = array(), $status = 200, $headers = array(), $options = 0){$/;"	f
+keep	_ide_helper.php	/^        public static function keep($keys = null){$/;"	f
+key	_ide_helper.php	/^        public static function lists($column, $key = null){$/;"	v
+keys	_ide_helper.php	/^        public static function flash($filter = null, $keys = array()){$/;"	v
+langPath	_ide_helper.php	/^        public static function langPath(){$/;"	f
+lastModified	_ide_helper.php	/^        public static function lastModified($path){$/;"	f
+later	_ide_helper.php	/^        public static function later($delay, $job, $data = '', $queue = null){$/;"	f
+later	_ide_helper.php	/^        public static function later($delay, $view, $data, $callback, $queue = null){$/;"	f
+laterOn	_ide_helper.php	/^        public static function laterOn($queue, $delay, $job, $data = ''){$/;"	f
+laterOn	_ide_helper.php	/^        public static function laterOn($queue, $delay, $view, $data, $callback){$/;"	f
+latest	_ide_helper.php	/^        public static function latest($column = 'created_at'){$/;"	f
+leftJoin	_ide_helper.php	/^        public static function leftJoin($table, $first, $operator = null, $second = null){$/;"	f
+leftJoinWhere	_ide_helper.php	/^        public static function leftJoinWhere($table, $one, $operator, $two){$/;"	f
+level	_ide_helper.php	/^        public static function useFiles($path, $level = 'debug'){$/;"	v
+level	_ide_helper.php	/^        public static function useSyslog($name = 'laravel', $level = 'debug'){$/;"	v
+lifetime	_ide_helper.php	/^        public static function migrate($destroy = false, $lifetime = null){$/;"	v
+limit	_ide_helper.php	/^        public static function limit($value){$/;"	f
+listen	_ide_helper.php	/^        public static function listen($callback){$/;"	f
+listen	_ide_helper.php	/^        public static function listen($events, $listener, $priority = 0){$/;"	f
+lists	_ide_helper.php	/^        public static function lists($column, $key = null){$/;"	f
+load	_ide_helper.php	/^        public static function load($namespace, $group, $locale){$/;"	f
+loadDeferredProvider	_ide_helper.php	/^        public static function loadDeferredProvider($service){$/;"	f
+loadDeferredProviders	_ide_helper.php	/^        public static function loadDeferredProviders(){$/;"	f
+loadEnvironmentFrom	_ide_helper.php	/^        public static function loadEnvironmentFrom($file){$/;"	f
+locale	_ide_helper.php	/^        public static function has($key, $locale = null){$/;"	v
+locale	_ide_helper.php	/^        public static function locale(){$/;"	f
+lock	_ide_helper.php	/^        public static function lock($value = true){$/;"	f
+lock	_ide_helper.php	/^        public static function put($path, $contents, $lock = false){$/;"	v
+lockForUpdate	_ide_helper.php	/^        public static function lockForUpdate(){$/;"	f
+log	_ide_helper.php	/^        public static function log($level, $message, $context = array()){$/;"	f
+logQuery	_ide_helper.php	/^        public static function logQuery($query, $bindings, $time = null){$/;"	f
+logging	_ide_helper.php	/^        public static function logging(){$/;"	f
+login	_ide_helper.php	/^        public static function login($user, $remember = false){$/;"	f
+loginUsingId	_ide_helper.php	/^        public static function loginUsingId($id, $remember = false){$/;"	f
+logout	_ide_helper.php	/^        public static function logout(){$/;"	f
+looping	_ide_helper.php	/^        public static function looping($callback){$/;"	f
+macro	_ide_helper.php	/^        public static function macro($name, $callback){$/;"	f
+macro	_ide_helper.php	/^        public static function macro($name, $macro){$/;"	f
+macroCall	_ide_helper.php	/^        public static function macroCall($method, $parameters){$/;"	f
+make	_ide_helper.php	/^        public static function make($abstract, $parameters = array()){$/;"	f
+make	_ide_helper.php	/^        public static function make($content = '', $status = 200, $headers = array()){$/;"	f
+make	_ide_helper.php	/^        public static function make($data, $rules, $messages = array(), $customAttributes = array()){$/;"	f
+make	_ide_helper.php	/^        public static function make($name, $value, $minutes = 0, $path = null, $domain = null, $secure = false, $httpOnly = true){$/;"	f
+make	_ide_helper.php	/^        public static function make($value, $options = array()){$/;"	f
+make	_ide_helper.php	/^        public static function make($view, $data = array(), $mergeData = array()){$/;"	f
+makeDirectory	_ide_helper.php	/^        public static function makeDirectory($path, $mode = 493, $recursive = false, $force = false){$/;"	f
+makeListener	_ide_helper.php	/^        public static function makeListener($listener){$/;"	f
+mapUsing	_ide_helper.php	/^        public static function mapUsing($mapper){$/;"	f
+maps	_ide_helper.php	/^        public static function maps($commands){$/;"	f
+marshal	_ide_helper.php	/^        public static function marshal(){$/;"	f
+match	_ide_helper.php	/^        public static function match($methods, $uri, $action){$/;"	f
+matched	_ide_helper.php	/^        public static function matched($callback){$/;"	f
+matchesType	_ide_helper.php	/^        public static function matchesType($actual, $type){$/;"	f
+max	_ide_helper.php	/^        public static function max($column){$/;"	f
+merge	_ide_helper.php	/^        public static function merge($input){$/;"	f
+mergeBindings	_ide_helper.php	/^        public static function mergeBindings($query){$/;"	f
+mergeGroup	_ide_helper.php	/^        public static function mergeGroup($new, $old){$/;"	f
+mergeWheres	_ide_helper.php	/^        public static function mergeWheres($wheres, $bindings){$/;"	f
+mergeWithLastGroup	_ide_helper.php	/^        public static function mergeWithLastGroup($new){$/;"	f
+message	_ide_helper.php	/^        public static function abort($code, $message = '', $headers = array()){$/;"	v
+message	_ide_helper.php	/^        public static function extend($rule, $extension, $message = null){$/;"	v
+message	_ide_helper.php	/^        public static function extendImplicit($rule, $extension, $message = null){$/;"	v
+messageType	_ide_helper.php	/^        public static function useErrorLog($level = 'debug', $messageType = 0){$/;"	v
+messages	_ide_helper.php	/^        public static function make($data, $rules, $messages = array(), $customAttributes = array()){$/;"	v
+method	_ide_helper.php	/^        public static function create($uri, $method = 'GET', $parameters = array(), $cookies = array(), $files = array(), $server = array(), $content = null){$/;"	v
+method	_ide_helper.php	/^        public static function method(){$/;"	f
+methods	_ide_helper.php	/^        public static function when($pattern, $name, $methods = null){$/;"	v
+methods	_ide_helper.php	/^        public static function whenRegex($pattern, $name, $methods = null){$/;"	v
+middleware	_ide_helper.php	/^        public static function middleware($name, $class){$/;"	f
+migrate	_ide_helper.php	/^        public static function migrate($destroy = false, $lifetime = null){$/;"	f
+mimeType	_ide_helper.php	/^        public static function mimeType($path){$/;"	f
+min	_ide_helper.php	/^        public static function min($column){$/;"	f
+minutes	_ide_helper.php	/^        public static function make($name, $value, $minutes = 0, $path = null, $domain = null, $secure = false, $httpOnly = true){$/;"	v
+mode	_ide_helper.php	/^        public static function makeDirectory($path, $mode = 493, $recursive = false, $force = false){$/;"	v
+model	_ide_helper.php	/^        public static function model($key, $class, $callback = null){$/;"	f
+move	_ide_helper.php	/^        public static function move($path, $target){$/;"	f
+name	_ide_helper.php	/^         * Resolve a service provider instance from the class name.$/;"	c
+name	_ide_helper.php	/^         * Resolve the middleware name to a class name preserving passed parameters.$/;"	c
+name	_ide_helper.php	/^        public static function alwaysFrom($address, $name = null){$/;"	v
+name	_ide_helper.php	/^        public static function alwaysTo($address, $name = null){$/;"	v
+name	_ide_helper.php	/^        public static function download($file, $name = null, $headers = array(), $disposition = 'attachment'){$/;"	v
+name	_ide_helper.php	/^        public static function name($path){$/;"	f
+name	_ide_helper.php	/^        public static function name($view, $name){$/;"	f
+names	_ide_helper.php	/^        public static function controller($uri, $controller, $names = array()){$/;"	v
+needsRehash	_ide_helper.php	/^        public static function needsRehash($hashedValue, $options = array()){$/;"	f
+normalizeQueryString	_ide_helper.php	/^        public static function normalizeQueryString($qs){$/;"	f
+not	_ide_helper.php	/^        public static function orWhereExists($callback, $not = false){$/;"	v
+notice	_ide_helper.php	/^        public static function notice($message, $context = array()){$/;"	f
+of	_ide_helper.php	/^        public static function of($view, $data = array()){$/;"	f
+offset	_ide_helper.php	/^        public static function offset($value){$/;"	f
+offsetExists	_ide_helper.php	/^        public static function offsetExists($key){$/;"	f
+offsetExists	_ide_helper.php	/^        public static function offsetExists($offset){$/;"	f
+offsetGet	_ide_helper.php	/^        public static function offsetGet($key){$/;"	f
+offsetGet	_ide_helper.php	/^        public static function offsetGet($offset){$/;"	f
+offsetSet	_ide_helper.php	/^        public static function offsetSet($key, $value){$/;"	f
+offsetSet	_ide_helper.php	/^        public static function offsetSet($offset, $value){$/;"	f
+offsetUnset	_ide_helper.php	/^        public static function offsetUnset($key){$/;"	f
+offsetUnset	_ide_helper.php	/^        public static function offsetUnset($offset){$/;"	f
+old	_ide_helper.php	/^        public static function old($key = null, $default = null){$/;"	f
+oldest	_ide_helper.php	/^        public static function oldest($column = 'created_at'){$/;"	f
+on	_ide_helper.php	/^         * Execute an aggregate function on the database.$/;"	f
+onDelete	_ide_helper.php	/^        public static function onDelete($callback){$/;"	f
+onQueue	_ide_helper.php	/^        public static function onQueue($queue, $view, $data, $callback){$/;"	f
+once	_ide_helper.php	/^        public static function once($credentials = array()){$/;"	f
+onceBasic	_ide_helper.php	/^        public static function onceBasic($field = 'email'){$/;"	f
+onceUsingId	_ide_helper.php	/^        public static function onceUsingId($id){$/;"	f
+only	_ide_helper.php	/^        public static function only($keys){$/;"	f
+operator	_ide_helper.php	/^        public static function has($relation, $operator = '>=', $count = 1, $boolean = 'and', $callback = null){$/;"	v
+operator	_ide_helper.php	/^        public static function having($column, $operator = null, $value = null, $boolean = 'and'){$/;"	v
+operator	_ide_helper.php	/^        public static function join($table, $one, $operator = null, $two = null, $type = 'inner', $where = false){$/;"	v
+operator	_ide_helper.php	/^        public static function leftJoin($table, $first, $operator = null, $second = null){$/;"	v
+operator	_ide_helper.php	/^        public static function orHas($relation, $operator = '>=', $count = 1){$/;"	v
+operator	_ide_helper.php	/^        public static function orHaving($column, $operator = null, $value = null){$/;"	v
+operator	_ide_helper.php	/^        public static function orWhere($column, $operator = null, $value = null){$/;"	v
+operator	_ide_helper.php	/^        public static function orWhereHas($relation, $callback, $operator = '>=', $count = 1){$/;"	v
+operator	_ide_helper.php	/^        public static function rightJoin($table, $first, $operator = null, $second = null){$/;"	v
+operator	_ide_helper.php	/^        public static function where($column, $operator = null, $value = null, $boolean = 'and'){$/;"	v
+operator	_ide_helper.php	/^        public static function whereHas($relation, $callback, $operator = '>=', $count = 1){$/;"	v
+options	_ide_helper.php	/^        public static function check($value, $hashedValue, $options = array()){$/;"	v
+options	_ide_helper.php	/^        public static function copyDirectory($directory, $destination, $options = null){$/;"	v
+options	_ide_helper.php	/^        public static function make($value, $options = array()){$/;"	v
+options	_ide_helper.php	/^        public static function needsRehash($hashedValue, $options = array()){$/;"	v
+options	_ide_helper.php	/^        public static function options($uri, $action){$/;"	f
+options	_ide_helper.php	/^        public static function register($provider, $options = array(), $force = false){$/;"	v
+options	_ide_helper.php	/^        public static function resource($name, $controller, $options = array()){$/;"	v
+orHas	_ide_helper.php	/^        public static function orHas($relation, $operator = '>=', $count = 1){$/;"	f
+orHaving	_ide_helper.php	/^        public static function orHaving($column, $operator = null, $value = null){$/;"	f
+orHavingRaw	_ide_helper.php	/^        public static function orHavingRaw($sql, $bindings = array()){$/;"	f
+orWhere	_ide_helper.php	/^        public static function orWhere($column, $operator = null, $value = null){$/;"	f
+orWhereBetween	_ide_helper.php	/^        public static function orWhereBetween($column, $values){$/;"	f
+orWhereExists	_ide_helper.php	/^        public static function orWhereExists($callback, $not = false){$/;"	f
+orWhereHas	_ide_helper.php	/^        public static function orWhereHas($relation, $callback, $operator = '>=', $count = 1){$/;"	f
+orWhereIn	_ide_helper.php	/^        public static function orWhereIn($column, $values){$/;"	f
+orWhereNotBetween	_ide_helper.php	/^        public static function orWhereNotBetween($column, $values){$/;"	f
+orWhereNotExists	_ide_helper.php	/^        public static function orWhereNotExists($callback){$/;"	f
+orWhereNotIn	_ide_helper.php	/^        public static function orWhereNotIn($column, $values){$/;"	f
+orWhereNotNull	_ide_helper.php	/^        public static function orWhereNotNull($column){$/;"	f
+orWhereNull	_ide_helper.php	/^        public static function orWhereNull($column){$/;"	f
+orWhereRaw	_ide_helper.php	/^        public static function orWhereRaw($sql, $bindings = array()){$/;"	f
+orderBy	_ide_helper.php	/^        public static function orderBy($column, $direction = 'asc'){$/;"	f
+orderByRaw	_ide_helper.php	/^        public static function orderByRaw($sql, $bindings = array()){$/;"	f
+output	_ide_helper.php	/^        public static function handle($input, $output = null){$/;"	v
+output	_ide_helper.php	/^        public static function output(){$/;"	f
+overrideGlobals	_ide_helper.php	/^        public static function overrideGlobals(){$/;"	f
+paginate	_ide_helper.php	/^        public static function paginate($perPage = null, $columns = array(), $pageName = 'page', $page = null){$/;"	f
+parameters	_ide_helper.php	/^        public static function action($action, $parameters = array(), $absolute = true){$/;"	v
+parameters	_ide_helper.php	/^        public static function action($action, $parameters = array(), $status = 302, $headers = array()){$/;"	v
+parameters	_ide_helper.php	/^        public static function build($concrete, $parameters = array()){$/;"	v
+parameters	_ide_helper.php	/^        public static function call($callback, $parameters = array(), $defaultMethod = null){$/;"	v
+parameters	_ide_helper.php	/^        public static function call($command, $parameters = array()){$/;"	v
+parameters	_ide_helper.php	/^        public static function make($abstract, $parameters = array()){$/;"	v
+parameters	_ide_helper.php	/^        public static function queue($command, $parameters = array()){$/;"	v
+parameters	_ide_helper.php	/^        public static function redirectToAction($action, $parameters = array(), $status = 302, $headers = array()){$/;"	v
+parameters	_ide_helper.php	/^        public static function redirectToRoute($route, $parameters = array(), $status = 302, $headers = array()){$/;"	v
+parameters	_ide_helper.php	/^        public static function route($name, $parameters = array(), $absolute = true){$/;"	v
+parameters	_ide_helper.php	/^        public static function route($route, $parameters = array(), $status = 302, $headers = array()){$/;"	v
+parameters	_ide_helper.php	/^        public static function secure($path, $parameters = array()){$/;"	v
+parameters	_ide_helper.php	/^        public static function trans($id, $parameters = array(), $domain = 'messages', $locale = null){$/;"	v
+parameters	_ide_helper.php	/^        public static function transChoice($id, $number, $parameters = array(), $domain = 'messages', $locale = null){$/;"	v
+parameters	_ide_helper.php	/^        public static function wrap($callback, $parameters = array()){$/;"	v
+parseKey	_ide_helper.php	/^        public static function parseKey($key){$/;"	f
+patch	_ide_helper.php	/^        public static function patch($uri, $action){$/;"	f
+path	_ide_helper.php	/^        public static function forever($name, $value, $path = null, $domain = null, $secure = false, $httpOnly = true){$/;"	v
+path	_ide_helper.php	/^        public static function forget($name, $path = null, $domain = null){$/;"	v
+path	_ide_helper.php	/^        public static function path(){$/;"	f
+pattern	_ide_helper.php	/^        public static function pattern($key, $pattern){$/;"	f
+patterns	_ide_helper.php	/^        public static function patterns($patterns){$/;"	f
+payload	_ide_helper.php	/^        public static function fire($event, $payload = array(), $halt = false){$/;"	v
+payload	_ide_helper.php	/^        public static function push($event, $payload = array()){$/;"	v
+payload	_ide_helper.php	/^        public static function until($event, $payload = array()){$/;"	v
+perPage	_ide_helper.php	/^        public static function forPage($page, $perPage = 15){$/;"	v
+pipeThrough	_ide_helper.php	/^        public static function pipeThrough($pipes){$/;"	f
+pjax	_ide_helper.php	/^        public static function pjax(){$/;"	f
+plain	_ide_helper.php	/^        public static function plain($view, $data, $callback){$/;"	f
+pluck	_ide_helper.php	/^        public static function pluck($column){$/;"	f
+policy	_ide_helper.php	/^        public static function policy($class, $policy){$/;"	f
+pop	_ide_helper.php	/^        public static function pop($queue = null){$/;"	f
+post	_ide_helper.php	/^        public static function post($uri, $action){$/;"	f
+prefers	_ide_helper.php	/^        public static function prefers($contentTypes){$/;"	f
+prepareBindings	_ide_helper.php	/^        public static function prepareBindings($bindings){$/;"	f
+prepareResponse	_ide_helper.php	/^        public static function prepareResponse($request, $response){$/;"	f
+prepend	_ide_helper.php	/^        public static function prepend($key, $value){$/;"	f
+prepend	_ide_helper.php	/^        public static function prepend($path, $data){$/;"	f
+prependNamespace	_ide_helper.php	/^        public static function prependNamespace($namespace, $hints){$/;"	f
+preserve	_ide_helper.php	/^        public static function deleteDirectory($directory, $preserve = false){$/;"	v
+pretend	_ide_helper.php	/^        public static function pretend($callback){$/;"	f
+pretend	_ide_helper.php	/^        public static function pretend($value = true){$/;"	f
+pretending	_ide_helper.php	/^        public static function pretending(){$/;"	f
+previous	_ide_helper.php	/^        public static function previous(){$/;"	f
+previousUrl	_ide_helper.php	/^        public static function previousUrl(){$/;"	f
+priority	_ide_helper.php	/^        public static function composer($views, $callback, $priority = null){$/;"	v
+priority	_ide_helper.php	/^        public static function listen($events, $listener, $priority = 0){$/;"	v
+publicPath	_ide_helper.php	/^        public static function publicPath(){$/;"	f
+pull	_ide_helper.php	/^        public static function pull($key, $default = null){$/;"	f
+purge	_ide_helper.php	/^        public static function purge($name = null){$/;"	f
+push	_ide_helper.php	/^        public static function push($event, $payload = array()){$/;"	f
+push	_ide_helper.php	/^        public static function push($job, $data = '', $queue = null){$/;"	f
+push	_ide_helper.php	/^        public static function push($key, $value){$/;"	f
+pushOn	_ide_helper.php	/^        public static function pushOn($queue, $job, $data = ''){$/;"	f
+pushRaw	_ide_helper.php	/^        public static function pushRaw($payload, $queue = null, $options = array()){$/;"	f
+put	_ide_helper.php	/^        public static function put($key, $value = null){$/;"	f
+put	_ide_helper.php	/^        public static function put($key, $value, $minutes){$/;"	f
+put	_ide_helper.php	/^        public static function put($path, $contents, $lock = false){$/;"	f
+put	_ide_helper.php	/^        public static function put($uri, $action){$/;"	f
+query	_ide_helper.php	/^        public static function query($key = null, $default = null){$/;"	f
+queue	_ide_helper.php	/^        public static function later($delay, $view, $data, $callback, $queue = null){$/;"	v
+queue	_ide_helper.php	/^        public static function pushRaw($payload, $queue = null, $options = array()){$/;"	v
+queue	_ide_helper.php	/^        public static function queue($command, $parameters = array()){$/;"	f
+queue	_ide_helper.php	/^        public static function queue($view, $data, $callback, $queue = null){$/;"	f
+queue	_ide_helper.php	/^        public static function queue($view, $data, $callback, $queue = null){$/;"	v
+queue	_ide_helper.php	/^        public static function queue(){$/;"	f
+queueOn	_ide_helper.php	/^        public static function queueOn($queue, $view, $data, $callback){$/;"	f
+queued	_ide_helper.php	/^        public static function queued($key, $default = null){$/;"	f
+raw	_ide_helper.php	/^        public static function raw($text, $callback){$/;"	f
+raw	_ide_helper.php	/^        public static function raw($value){$/;"	f
+rebinding	_ide_helper.php	/^        public static function rebinding($abstract, $callback){$/;"	f
+reconnect	_ide_helper.php	/^        public static function reconnect($name = null){$/;"	f
+redirectGuest	_ide_helper.php	/^        public static function redirectGuest($path, $status = 302, $headers = array(), $secure = null){$/;"	f
+redirectTo	_ide_helper.php	/^        public static function redirectTo($path, $status = 302, $headers = array(), $secure = null){$/;"	f
+redirectToAction	_ide_helper.php	/^        public static function redirectToAction($action, $parameters = array(), $status = 302, $headers = array()){$/;"	f
+redirectToIntended	_ide_helper.php	/^        public static function redirectToIntended($default = '\/', $status = 302, $headers = array(), $secure = null){$/;"	f
+redirectToRoute	_ide_helper.php	/^        public static function redirectToRoute($route, $parameters = array(), $status = 302, $headers = array()){$/;"	f
+reflash	_ide_helper.php	/^        public static function reflash(){$/;"	f
+refresh	_ide_helper.php	/^        public static function refresh($abstract, $target, $method){$/;"	f
+refresh	_ide_helper.php	/^        public static function refresh($status = 302, $headers = array()){$/;"	f
+regenerate	_ide_helper.php	/^        public static function regenerate($destroy = false){$/;"	f
+regenerateToken	_ide_helper.php	/^        public static function regenerateToken(){$/;"	f
+register	_ide_helper.php	/^        public static function register($provider, $options = array(), $force = false){$/;"	f
+registerBag	_ide_helper.php	/^        public static function registerBag($bag){$/;"	f
+registerConfiguredProviders	_ide_helper.php	/^        public static function registerConfiguredProviders(){$/;"	f
+registerCoreContainerAliases	_ide_helper.php	/^        public static function registerCoreContainerAliases(){$/;"	f
+registerDeferredProvider	_ide_helper.php	/^        public static function registerDeferredProvider($provider, $service = null){$/;"	f
+remember	_ide_helper.php	/^        public static function attempt($credentials = array(), $remember = false, $login = true){$/;"	v
+remember	_ide_helper.php	/^        public static function login($user, $remember = false){$/;"	v
+remember	_ide_helper.php	/^        public static function loginUsingId($id, $remember = false){$/;"	v
+remember	_ide_helper.php	/^        public static function remember($key, $minutes, $callback){$/;"	f
+rememberForever	_ide_helper.php	/^        public static function rememberForever($key, $callback){$/;"	f
+remove	_ide_helper.php	/^        public static function remove($name){$/;"	f
+rename	_ide_helper.php	/^        public static function rename($from, $to){$/;"	f
+renderEach	_ide_helper.php	/^        public static function renderEach($view, $data, $iterator, $empty = 'raw|'){$/;"	f
+replace	_ide_helper.php	/^        public static function choice($key, $number, $replace = array(), $locale = null){$/;"	v
+replace	_ide_helper.php	/^        public static function get($key, $replace = array(), $locale = null){$/;"	v
+replace	_ide_helper.php	/^        public static function replace($attributes){$/;"	f
+replace	_ide_helper.php	/^        public static function replace($input){$/;"	f
+replacer	_ide_helper.php	/^        public static function replacer($rule, $replacer){$/;"	f
+repository	_ide_helper.php	/^        public static function repository($store){$/;"	f
+request	_ide_helper.php	/^        public static function duplicate($query = null, $request = null, $attributes = null, $cookies = null, $files = null, $server = null){$/;"	v
+request	_ide_helper.php	/^        public static function initialize($query = array(), $request = array(), $attributes = array(), $cookies = array(), $files = array(), $server = array(), $content = null){$/;"	v
+requireOnce	_ide_helper.php	/^        public static function requireOnce($file){$/;"	f
+reset	_ide_helper.php	/^        public static function reset($credentials, $callback){$/;"	f
+resolveHandler	_ide_helper.php	/^        public static function resolveHandler($command){$/;"	f
+resolveMiddlewareClassName	_ide_helper.php	/^        public static function resolveMiddlewareClassName($name){$/;"	f
+resolvePolicy	_ide_helper.php	/^        public static function resolvePolicy($class){$/;"	f
+resolveProviderClass	_ide_helper.php	/^        public static function resolveProviderClass($provider){$/;"	f
+resolved	_ide_helper.php	/^        public static function resolved($abstract){$/;"	f
+resolver	_ide_helper.php	/^        public static function addExtension($extension, $engine, $resolver = null){$/;"	v
+resolver	_ide_helper.php	/^        public static function resolver($resolver){$/;"	f
+resolving	_ide_helper.php	/^        public static function resolving($abstract, $callback = null){$/;"	f
+resource	_ide_helper.php	/^        public static function resource($name, $controller, $options = array()){$/;"	f
+resources	_ide_helper.php	/^        public static function resources($resources){$/;"	f
+response	_ide_helper.php	/^        public static function callRouteFilter($filter, $parameters, $route, $request, $response = null){$/;"	v
+rightJoin	_ide_helper.php	/^        public static function rightJoin($table, $first, $operator = null, $second = null){$/;"	f
+rightJoinWhere	_ide_helper.php	/^        public static function rightJoinWhere($table, $one, $operator, $two){$/;"	f
+rollBack	_ide_helper.php	/^        public static function rollBack(){$/;"	f
+root	_ide_helper.php	/^        public static function root(){$/;"	f
+route	_ide_helper.php	/^        public static function route($name, $parameters = array(), $absolute = true){$/;"	f
+route	_ide_helper.php	/^        public static function route($param = null){$/;"	f
+route	_ide_helper.php	/^        public static function route($route, $parameters = array(), $status = 302, $headers = array()){$/;"	f
+routesAreCached	_ide_helper.php	/^        public static function routesAreCached(){$/;"	f
+runningInConsole	_ide_helper.php	/^        public static function runningInConsole(){$/;"	f
+runningUnitTests	_ide_helper.php	/^        public static function runningUnitTests(){$/;"	f
+save	_ide_helper.php	/^        public static function save(){$/;"	f
+sear	_ide_helper.php	/^        public static function sear($key, $callback){$/;"	f
+secure	_ide_helper.php	/^        public static function asset($path, $secure = null){$/;"	v
+secure	_ide_helper.php	/^        public static function secure($path, $parameters = array()){$/;"	f
+secure	_ide_helper.php	/^        public static function secure($path, $status = 302, $headers = array()){$/;"	f
+secure	_ide_helper.php	/^        public static function secure(){$/;"	f
+secureAsset	_ide_helper.php	/^        public static function secureAsset($path){$/;"	f
+segment	_ide_helper.php	/^        public static function segment($index, $default = null){$/;"	f
+segments	_ide_helper.php	/^        public static function segments(){$/;"	f
+select	_ide_helper.php	/^        public static function select($columns = array()){$/;"	f
+select	_ide_helper.php	/^        public static function select($query, $bindings = array(), $useReadPdo = true){$/;"	f
+selectFromWriteConnection	_ide_helper.php	/^        public static function selectFromWriteConnection($query, $bindings = array()){$/;"	f
+selectOne	_ide_helper.php	/^        public static function selectOne($query, $bindings = array()){$/;"	f
+selectRaw	_ide_helper.php	/^        public static function selectRaw($expression, $bindings = array()){$/;"	f
+selectSub	_ide_helper.php	/^        public static function selectSub($query, $as){$/;"	f
+send	_ide_helper.php	/^        public static function send($view, $data, $callback){$/;"	f
+sendResetLink	_ide_helper.php	/^        public static function sendResetLink($credentials, $callback = null){$/;"	f
+sequence	_ide_helper.php	/^        public static function insertGetId($values, $sequence = null){$/;"	v
+server	_ide_helper.php	/^        public static function server($key = null, $default = null){$/;"	f
+service	_ide_helper.php	/^        public static function registerDeferredProvider($provider, $service = null){$/;"	v
+session	_ide_helper.php	/^        public static function session(){$/;"	f
+set	_ide_helper.php	/^        public static function set($key, $value = null){$/;"	f
+set	_ide_helper.php	/^        public static function set($name, $value){$/;"	f
+setBasePath	_ide_helper.php	/^        public static function setBasePath($basePath){$/;"	f
+setBindings	_ide_helper.php	/^        public static function setBindings($bindings, $type = 'where'){$/;"	f
+setConnection	_ide_helper.php	/^        public static function setConnection($connection){$/;"	f
+setContainer	_ide_helper.php	/^        public static function setContainer($container){$/;"	f
+setContentTags	_ide_helper.php	/^        public static function setContentTags($openTag, $closeTag, $escaped = false){$/;"	f
+setCookieJar	_ide_helper.php	/^        public static function setCookieJar($cookie){$/;"	f
+setDatabaseName	_ide_helper.php	/^        public static function setDatabaseName($database){$/;"	f
+setDefaultCacheTime	_ide_helper.php	/^        public static function setDefaultCacheTime($minutes){$/;"	f
+setDefaultConnection	_ide_helper.php	/^        public static function setDefaultConnection($name){$/;"	f
+setDefaultDriver	_ide_helper.php	/^        public static function setDefaultDriver($name){$/;"	f
+setDefaultLocale	_ide_helper.php	/^        public static function setDefaultLocale($locale){$/;"	f
+setDefaultPathAndDomain	_ide_helper.php	/^        public static function setDefaultPathAndDomain($path, $domain){$/;"	f
+setDeferredServices	_ide_helper.php	/^        public static function setDeferredServices($services){$/;"	f
+setDispatcher	_ide_helper.php	/^        public static function setDispatcher($events){$/;"	f
+setEagerLoads	_ide_helper.php	/^        public static function setEagerLoads($eagerLoad){$/;"	f
+setEchoFormat	_ide_helper.php	/^        public static function setEchoFormat($format){$/;"	f
+setEncrypter	_ide_helper.php	/^        public static function setEncrypter($crypt){$/;"	f
+setEscapedContentTags	_ide_helper.php	/^        public static function setEscapedContentTags($openTag, $closeTag){$/;"	f
+setEventDispatcher	_ide_helper.php	/^        public static function setEventDispatcher($dispatcher){$/;"	f
+setEventDispatcher	_ide_helper.php	/^        public static function setEventDispatcher($events){$/;"	f
+setExists	_ide_helper.php	/^        public static function setExists($value){$/;"	f
+setFactory	_ide_helper.php	/^        public static function setFactory($callable){$/;"	f
+setFallback	_ide_helper.php	/^        public static function setFallback($fallback){$/;"	f
+setFetchMode	_ide_helper.php	/^        public static function setFetchMode($fetchMode){$/;"	f
+setFinder	_ide_helper.php	/^        public static function setFinder($finder){$/;"	f
+setFormat	_ide_helper.php	/^        public static function setFormat($format, $mimeTypes){$/;"	f
+setId	_ide_helper.php	/^        public static function setId($id){$/;"	f
+setInstance	_ide_helper.php	/^        public static function setInstance($container){$/;"	f
+setLocale	_ide_helper.php	/^        public static function setLocale($locale){$/;"	f
+setLogger	_ide_helper.php	/^        public static function setLogger($logger){$/;"	f
+setMethod	_ide_helper.php	/^        public static function setMethod($method){$/;"	f
+setModel	_ide_helper.php	/^        public static function setModel($model){$/;"	f
+setName	_ide_helper.php	/^        public static function setName($name){$/;"	f
+setParsedKey	_ide_helper.php	/^        public static function setParsedKey($key, $parsed){$/;"	f
+setPath	_ide_helper.php	/^        public static function setPath($path){$/;"	f
+setPdo	_ide_helper.php	/^        public static function setPdo($pdo){$/;"	f
+setPostProcessor	_ide_helper.php	/^        public static function setPostProcessor($processor){$/;"	f
+setPresenceVerifier	_ide_helper.php	/^        public static function setPresenceVerifier($presenceVerifier){$/;"	f
+setPreviousUrl	_ide_helper.php	/^        public static function setPreviousUrl($url){$/;"	f
+setProvider	_ide_helper.php	/^        public static function setProvider($provider){$/;"	f
+setQuery	_ide_helper.php	/^        public static function setQuery($query){$/;"	f
+setQueryGrammar	_ide_helper.php	/^        public static function setQueryGrammar($grammar){$/;"	f
+setQueue	_ide_helper.php	/^        public static function setQueue($queue){$/;"	f
+setQueueResolver	_ide_helper.php	/^        public static function setQueueResolver($resolver){$/;"	f
+setRawTags	_ide_helper.php	/^        public static function setRawTags($openTag, $closeTag){$/;"	f
+setReadPdo	_ide_helper.php	/^        public static function setReadPdo($pdo){$/;"	f
+setReconnector	_ide_helper.php	/^        public static function setReconnector($reconnector){$/;"	f
+setRequest	_ide_helper.php	/^        public static function setRequest($request){$/;"	f
+setRequestFormat	_ide_helper.php	/^        public static function setRequestFormat($format){$/;"	f
+setRequestOnHandler	_ide_helper.php	/^        public static function setRequestOnHandler($request){$/;"	f
+setRootControllerNamespace	_ide_helper.php	/^        public static function setRootControllerNamespace($rootNamespace){$/;"	f
+setRounds	_ide_helper.php	/^        public static function setRounds($rounds){$/;"	f
+setRouteResolver	_ide_helper.php	/^        public static function setRouteResolver($callback){$/;"	f
+setRoutes	_ide_helper.php	/^        public static function setRoutes($routes){$/;"	f
+setSchemaGrammar	_ide_helper.php	/^        public static function setSchemaGrammar($grammar){$/;"	f
+setSelector	_ide_helper.php	/^        public static function setSelector($selector){$/;"	f
+setSession	_ide_helper.php	/^        public static function setSession($session){$/;"	f
+setSessionResolver	_ide_helper.php	/^        public static function setSessionResolver($sessionResolver){$/;"	f
+setSwiftMailer	_ide_helper.php	/^        public static function setSwiftMailer($swift){$/;"	f
+setTablePrefix	_ide_helper.php	/^        public static function setTablePrefix($prefix){$/;"	f
+setTrustedHeaderName	_ide_helper.php	/^        public static function setTrustedHeaderName($key, $value){$/;"	f
+setTrustedHosts	_ide_helper.php	/^        public static function setTrustedHosts($hostPatterns){$/;"	f
+setTrustedProxies	_ide_helper.php	/^        public static function setTrustedProxies($proxies){$/;"	f
+setUser	_ide_helper.php	/^        public static function setUser($user){$/;"	f
+setUserResolver	_ide_helper.php	/^        public static function setUserResolver($callback){$/;"	f
+share	_ide_helper.php	/^        public static function share($closure){$/;"	f
+share	_ide_helper.php	/^        public static function share($key, $value = null){$/;"	f
+shared	_ide_helper.php	/^        public static function shared($key, $default = null){$/;"	f
+sharedLock	_ide_helper.php	/^        public static function sharedLock(){$/;"	f
+shouldSkipMiddleware	_ide_helper.php	/^        public static function shouldSkipMiddleware(){$/;"	f
+simpleMapping	_ide_helper.php	/^        public static function simpleMapping($command, $commandNamespace, $handlerNamespace){$/;"	f
+simplePaginate	_ide_helper.php	/^        public static function simplePaginate($perPage = null, $columns = array(), $pageName = 'page'){$/;"	f
+singleton	_ide_helper.php	/^        public static function singleton($abstract, $concrete = null){$/;"	f
+size	_ide_helper.php	/^        public static function size($path){$/;"	f
+skip	_ide_helper.php	/^        public static function skip($value){$/;"	f
+start	_ide_helper.php	/^        public static function start(){$/;"	f
+startSection	_ide_helper.php	/^        public static function startSection($section, $content = ''){$/;"	f
+statement	_ide_helper.php	/^        public static function statement($query, $bindings = array()){$/;"	f
+status	_ide_helper.php	/^        public static function away($path, $status = 302, $headers = array()){$/;"	v
+status	_ide_helper.php	/^        public static function guest($path, $status = 302, $headers = array(), $secure = null){$/;"	v
+status	_ide_helper.php	/^        public static function intended($default = '\/', $status = 302, $headers = array(), $secure = null){$/;"	v
+status	_ide_helper.php	/^        public static function json($data = array(), $status = 200, $headers = array(), $options = 0){$/;"	v
+status	_ide_helper.php	/^        public static function make($content = '', $status = 200, $headers = array()){$/;"	v
+status	_ide_helper.php	/^        public static function redirectGuest($path, $status = 302, $headers = array(), $secure = null){$/;"	v
+status	_ide_helper.php	/^        public static function redirectTo($path, $status = 302, $headers = array(), $secure = null){$/;"	v
+status	_ide_helper.php	/^        public static function redirectToIntended($default = '\/', $status = 302, $headers = array(), $secure = null){$/;"	v
+status	_ide_helper.php	/^        public static function secure($path, $status = 302, $headers = array()){$/;"	v
+status	_ide_helper.php	/^        public static function stream($callback, $status = 200, $headers = array()){$/;"	v
+status	_ide_helper.php	/^        public static function to($path, $status = 302, $headers = array(), $secure = null){$/;"	v
+stopSection	_ide_helper.php	/^        public static function stopSection($overwrite = false){$/;"	f
+stopping	_ide_helper.php	/^        public static function stopping($callback){$/;"	f
+storagePath	_ide_helper.php	/^        public static function storagePath(){$/;"	f
+store	_ide_helper.php	/^        public static function store($name = null){$/;"	f
+stream	_ide_helper.php	/^        public static function stream($callback, $status = 200, $headers = array()){$/;"	f
+subscribe	_ide_helper.php	/^        public static function subscribe($subscriber){$/;"	f
+sum	_ide_helper.php	/^        public static function sum($column){$/;"	f
+supported	_ide_helper.php	/^        public static function supported($key, $cipher){$/;"	f
+table	_ide_helper.php	/^        public static function table($table){$/;"	f
+table	_ide_helper.php	/^        public static function table($table, $callback){$/;"	f
+tag	_ide_helper.php	/^        public static function tag($abstracts, $tags){$/;"	f
+tagged	_ide_helper.php	/^        public static function tagged($tag){$/;"	f
+take	_ide_helper.php	/^        public static function take($value){$/;"	f
+terminate	_ide_helper.php	/^        public static function terminate($input, $status){$/;"	f
+terminate	_ide_helper.php	/^        public static function terminate(){$/;"	f
+terminating	_ide_helper.php	/^        public static function terminating($callback){$/;"	f
+time	_ide_helper.php	/^        public static function logQuery($query, $bindings, $time = null){$/;"	v
+to	_ide_helper.php	/^        public static function to($path, $extra = array(), $secure = null){$/;"	f
+to	_ide_helper.php	/^        public static function to($path, $status = 302, $headers = array(), $secure = null){$/;"	f
+toSql	_ide_helper.php	/^        public static function toSql(){$/;"	f
+token	_ide_helper.php	/^        public static function token(){$/;"	f
+trans	_ide_helper.php	/^        public static function trans($id, $parameters = array(), $domain = 'messages', $locale = null){$/;"	f
+transChoice	_ide_helper.php	/^        public static function transChoice($id, $number, $parameters = array(), $domain = 'messages', $locale = null){$/;"	f
+transaction	_ide_helper.php	/^        public static function transaction($callback){$/;"	f
+transactionLevel	_ide_helper.php	/^        public static function transactionLevel(){$/;"	f
+truncate	_ide_helper.php	/^        public static function truncate(){$/;"	f
+type	_ide_helper.php	/^        public static function addBinding($value, $type = 'where'){$/;"	v
+type	_ide_helper.php	/^        public static function handle($request, $type = 1, $catch = true){$/;"	v
+type	_ide_helper.php	/^        public static function joinWhere($table, $one, $operator, $two, $type = 'inner'){$/;"	v
+type	_ide_helper.php	/^        public static function setBindings($bindings, $type = 'where'){$/;"	v
+type	_ide_helper.php	/^        public static function type($path){$/;"	f
+union	_ide_helper.php	/^        public static function union($query, $all = false){$/;"	f
+unionAll	_ide_helper.php	/^        public static function unionAll($query){$/;"	f
+unprepared	_ide_helper.php	/^        public static function unprepared($query){$/;"	f
+unqueue	_ide_helper.php	/^        public static function unqueue($name){$/;"	f
+until	_ide_helper.php	/^        public static function until($event, $payload = array()){$/;"	f
+update	_ide_helper.php	/^        public static function update($query, $bindings = array()){$/;"	f
+uri	server.php	/^$uri = urldecode($/;"	v
+url	_ide_helper.php	/^        public static function url(){$/;"	f
+useDailyFiles	_ide_helper.php	/^        public static function useDailyFiles($path, $days = 0, $level = 'debug'){$/;"	f
+useDatabasePath	_ide_helper.php	/^        public static function useDatabasePath($path){$/;"	f
+useDefaultPostProcessor	_ide_helper.php	/^        public static function useDefaultPostProcessor(){$/;"	f
+useDefaultQueryGrammar	_ide_helper.php	/^        public static function useDefaultQueryGrammar(){$/;"	f
+useDefaultSchemaGrammar	_ide_helper.php	/^        public static function useDefaultSchemaGrammar(){$/;"	f
+useEnvironmentPath	_ide_helper.php	/^        public static function useEnvironmentPath($path){$/;"	f
+useErrorLog	_ide_helper.php	/^        public static function useErrorLog($level = 'debug', $messageType = 0){$/;"	f
+useFiles	_ide_helper.php	/^        public static function useFiles($path, $level = 'debug'){$/;"	f
+useStoragePath	_ide_helper.php	/^        public static function useStoragePath($path){$/;"	f
+useSyslog	_ide_helper.php	/^        public static function useSyslog($name = 'laravel', $level = 'debug'){$/;"	f
+useWritePdo	_ide_helper.php	/^        public static function useWritePdo(){$/;"	f
+user	_ide_helper.php	/^        public static function user(){$/;"	f
+uses	_ide_helper.php	/^        public static function uses(){$/;"	f
+validate	_ide_helper.php	/^        public static function validate($credentials = array()){$/;"	f
+validateNewPassword	_ide_helper.php	/^        public static function validateNewPassword($credentials){$/;"	f
+validator	_ide_helper.php	/^        public static function validator($callback){$/;"	f
+value	_ide_helper.php	/^        public static function decrement($key, $value = 1){$/;"	v
+value	_ide_helper.php	/^        public static function increment($key, $value = 1){$/;"	v
+value	_ide_helper.php	/^        public static function put($key, $value = null){$/;"	v
+value	_ide_helper.php	/^        public static function set($key, $value = null){$/;"	v
+value	_ide_helper.php	/^        public static function share($key, $value = null){$/;"	v
+value	_ide_helper.php	/^        public static function value($column){$/;"	f
+version	_ide_helper.php	/^        public static function version(){$/;"	f
+viaRemember	_ide_helper.php	/^        public static function viaRemember(){$/;"	f
+view	_ide_helper.php	/^        public static function view($view, $data = array(), $status = 200, $headers = array()){$/;"	f
+wantsJson	_ide_helper.php	/^        public static function wantsJson(){$/;"	f
+warning	_ide_helper.php	/^        public static function warning($message, $context = array()){$/;"	f
+when	_ide_helper.php	/^        public static function when($concrete){$/;"	f
+when	_ide_helper.php	/^        public static function when($pattern, $name, $methods = null){$/;"	f
+whenRegex	_ide_helper.php	/^        public static function whenRegex($pattern, $name, $methods = null){$/;"	f
+where	_ide_helper.php	/^        public static function where($column, $operator = null, $value = null, $boolean = 'and'){$/;"	f
+whereBetween	_ide_helper.php	/^        public static function whereBetween($column, $values, $boolean = 'and', $not = false){$/;"	f
+whereDate	_ide_helper.php	/^        public static function whereDate($column, $operator, $value, $boolean = 'and'){$/;"	f
+whereDay	_ide_helper.php	/^        public static function whereDay($column, $operator, $value, $boolean = 'and'){$/;"	f
+whereDoesntHave	_ide_helper.php	/^        public static function whereDoesntHave($relation, $callback = null){$/;"	f
+whereExists	_ide_helper.php	/^        public static function whereExists($callback, $boolean = 'and', $not = false){$/;"	f
+whereHas	_ide_helper.php	/^        public static function whereHas($relation, $callback, $operator = '>=', $count = 1){$/;"	f
+whereIn	_ide_helper.php	/^        public static function whereIn($column, $values, $boolean = 'and', $not = false){$/;"	f
+whereMonth	_ide_helper.php	/^        public static function whereMonth($column, $operator, $value, $boolean = 'and'){$/;"	f
+whereNested	_ide_helper.php	/^        public static function whereNested($callback, $boolean = 'and'){$/;"	f
+whereNotBetween	_ide_helper.php	/^        public static function whereNotBetween($column, $values, $boolean = 'and'){$/;"	f
+whereNotExists	_ide_helper.php	/^        public static function whereNotExists($callback, $boolean = 'and'){$/;"	f
+whereNotIn	_ide_helper.php	/^        public static function whereNotIn($column, $values, $boolean = 'and'){$/;"	f
+whereNotNull	_ide_helper.php	/^        public static function whereNotNull($column, $boolean = 'and'){$/;"	f
+whereNull	_ide_helper.php	/^        public static function whereNull($column, $boolean = 'and', $not = false){$/;"	f
+whereRaw	_ide_helper.php	/^        public static function whereRaw($sql, $bindings = array(), $boolean = 'and'){$/;"	f
+whereYear	_ide_helper.php	/^        public static function whereYear($column, $operator, $value, $boolean = 'and'){$/;"	f
+withTablePrefix	_ide_helper.php	/^        public static function withTablePrefix($grammar){$/;"	f
+wrap	_ide_helper.php	/^        public static function wrap($callback, $parameters = array()){$/;"	f
+write	_ide_helper.php	/^        public static function write($level, $message, $context = array()){$/;"	f
+yieldContent	_ide_helper.php	/^        public static function yieldContent($section, $default = ''){$/;"	f
+yieldSection	_ide_helper.php	/^        public static function yieldSection(){$/;"	f
